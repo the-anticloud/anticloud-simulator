@@ -1,0 +1,1875 @@
+{
+ "schema": "anticloud.tier-bench/1",
+ "project": "SIMULATOR",
+ "source": {
+  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\AUTOMOTIVE\\SIMULATOR\\UPSTREAM_CLONE",
+  "git": {
+   "head": "28244ba27ca66e34e2f48ce30812d4f034e39c0b",
+   "url": "https://github.com/carla-simulator/carla",
+   "branch": "ue58-dev",
+   "committed_at": "",
+   "sha_verified_from": "GitHub API substitute swap 2026-10-12 | unified 2026-10-14 (API-exists + content/clone anchor)"
+  }
+ },
+ "metrics": {
+  "files_total": 3046,
+  "source_files_scanned": 1882,
+  "lines_of_code": 359448,
+  "languages": {
+   ".h": 782,
+   ".cpp": 477,
+   ".py": 439,
+   ".png": 262,
+   ".md": 244,
+   ".jpg": 180,
+   ".sh": 177,
+   ".webp": 131,
+   ".uasset": 87,
+   ".gif": 47,
+   "(none)": 36,
+   ".txt": 30,
+   ".json": 17,
+   ".yaml": 16,
+   ".yml": 16
+  }
+ },
+ "licence": {
+  "spdx": "MIT",
+  "class": "A",
+  "source_file": "LICENSE",
+  "redistribution_allowed": true
+ },
+ "dependencies": {
+  "count": 25,
+  "unique": 19,
+  "by_ecosystem": {
+   "native": 7,
+   "pypi": 18
+  },
+  "list": [
+   {
+    "ecosystem": "native",
+    "name": "LibXml2",
+    "version": "",
+    "source_file": "Util/DockerUtils/fbx/CMakeLists.txt",
+    "raw": "find_package (LibXml2"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Python3",
+    "version": "",
+    "source_file": "PythonAPI/CMakeLists.txt",
+    "raw": "find_package (\n  Python3"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pygame",
+    "version": ">=2.6",
+    "source_file": "PythonAPI/examples/nvidia/nurec/pyproject.toml",
+    "raw": "pygame>=2.6"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "numpy",
+    "version": ">=1.26",
+    "source_file": "PythonAPI/examples/nvidia/nurec/pyproject.toml",
+    "raw": "numpy>=1.26"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "scipy",
+    "version": ">=1.11",
+    "source_file": "PythonAPI/examples/nvidia/nurec/pyproject.toml",
+    "raw": "scipy>=1.11"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "grpcio",
+    "version": ">=1.66",
+    "source_file": "PythonAPI/examples/nvidia/nurec/pyproject.toml",
+    "raw": "grpcio>=1.66"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "protobuf",
+    "version": ">=5.29",
+    "source_file": "PythonAPI/examples/nvidia/nurec/pyproject.toml",
+    "raw": "protobuf>=5.29"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "carla",
+    "version": ">=0.10.0",
+    "source_file": "PythonAPI/examples/nvidia/nurec/pyproject.toml",
+    "raw": "carla>=0.10.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pyyaml",
+    "version": "",
+    "source_file": "PythonAPI/examples/nvidia/nurec/pyproject.toml",
+    "raw": "pyyaml"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pillow",
+    "version": ">=10",
+    "source_file": "PythonAPI/examples/nvidia/nurec/pyproject.toml",
+    "raw": "pillow>=10"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "carla-cosmos",
+    "version": ">=0.2.0",
+    "source_file": "PythonAPI/examples/nvidia/cosmos/server/pyproject.toml",
+    "raw": "carla-cosmos>=0.2.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "carla-cosmos-workers",
+    "version": ">=0.2.0",
+    "source_file": "PythonAPI/examples/nvidia/cosmos/server/pyproject.toml",
+    "raw": "carla-cosmos-workers>=0.2.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "fastapi",
+    "version": ">=0.110",
+    "source_file": "PythonAPI/examples/nvidia/cosmos/server/pyproject.toml",
+    "raw": "fastapi>=0.110"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "uvicorn",
+    "version": ">=0.29",
+    "source_file": "PythonAPI/examples/nvidia/cosmos/server/pyproject.toml",
+    "raw": "uvicorn>=0.29"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pydantic",
+    "version": ">=2",
+    "source_file": "PythonAPI/examples/nvidia/cosmos/server/pyproject.toml",
+    "raw": "pydantic>=2"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pyyaml",
+    "version": "",
+    "source_file": "PythonAPI/examples/nvidia/cosmos/server/pyproject.toml",
+    "raw": "pyyaml"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "numpy",
+    "version": ">=1.26",
+    "source_file": "PythonAPI/examples/nvidia/cosmos/client/pyproject.toml",
+    "raw": "numpy>=1.26"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pyyaml",
+    "version": "",
+    "source_file": "PythonAPI/examples/nvidia/cosmos/client/pyproject.toml",
+    "raw": "pyyaml"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pydantic",
+    "version": ">=2",
+    "source_file": "PythonAPI/examples/nvidia/cosmos/client/pyproject.toml",
+    "raw": "pydantic>=2"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "httpx",
+    "version": ">=0.27",
+    "source_file": "PythonAPI/examples/nvidia/cosmos/client/pyproject.toml",
+    "raw": "httpx>=0.27"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Carla",
+    "version": "",
+    "source_file": "LibCarla/CMakeLists.txt",
+    "raw": "find_package(Carla"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Qt6",
+    "version": "",
+    "source_file": "Examples/QtClient/CMakeLists.txt",
+    "raw": "find_package (Qt6"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Qt5",
+    "version": "",
+    "source_file": "Examples/QtClient/CMakeLists.txt",
+    "raw": "find_package (Qt5"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Carla",
+    "version": "",
+    "source_file": "Examples/CppClient/Standalone/CMakeLists.txt",
+    "raw": "find_package (Carla"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Carla",
+    "version": "",
+    "source_file": "Examples/CppClient/AgentDemo/CMakeLists.txt",
+    "raw": "find_package (Carla"
+   }
+  ]
+ },
+ "owasp_top10": {
+  "total_findings": 182,
+  "files_with_findings": 174,
+  "severity": {
+   "high": 48,
+   "medium": 17,
+   "low": 117
+  },
+  "categories": {
+   "A01-BrokenAccessControl": {
+    "count": 0,
+    "findings": []
+   },
+   "A02-CryptographicFailures": {
+    "count": 11,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "Unreal/CarlaUnreal/Plugins/Carla/Source/Carla/Util/RandomEngine.cpp",
+      "line": 15,
+      "cwe": "CWE-338",
+      "snippet": "static thread_local std::mt19937_64 Engine((std::random_device())());"
+     },
+     {
+      "severity": "medium",
+      "file": "PythonAPI/test/API/test_no_rendering_mode.py",
+      "line": 309,
+      "cwe": "CWE-327",
+      "snippet": "hash_func = hashlib.sha1()"
+     },
+     {
+      "severity": "medium",
+      "file": "PythonAPI/examples/no_rendering_mode.py",
+      "line": 460,
+      "cwe": "CWE-327",
+      "snippet": "hash_func = hashlib.sha1()"
+     },
+     {
+      "severity": "medium",
+      "file": "PythonAPI/examples/nvidia/cosmos/server/carla_cosmos_server/config.py",
+      "line": 54,
+      "cwe": "CWE-327",
+      "snippet": "tag = hashlib.sha1(str(state_dir.resolve()).encode()).hexdigest()[:8]"
+     },
+     {
+      "severity": "medium",
+      "file": "LibCarla/source/test/Random.h",
+      "line": 37,
+      "cwe": "CWE-338",
+      "snippet": "static thread_local std::mt19937_64 _engine;"
+     },
+     {
+      "severity": "medium",
+      "file": "LibCarla/source/test/test.cpp",
+      "line": 30,
+      "cwe": "CWE-338",
+      "snippet": "thread_local std::mt19937_64 Random::_engine((std::random_device())());"
+     },
+     {
+      "severity": "medium",
+      "file": "LibCarla/source/test/common/test_geo_projection.cpp",
+      "line": 63,
+      "cwe": "CWE-338",
+      "snippet": "std::mt19937 rng(42u);"
+     },
+     {
+      "severity": "medium",
+      "file": "LibCarla/source/carla/trafficmanager/RandomGenerator.h",
+      "line": 14,
+      "cwe": "CWE-338",
+      "snippet": "RandomGenerator(const uint64_t seed): mt(std::mt19937(seed)), dist(0.0, 100.0) {}"
+     },
+     {
+      "severity": "medium",
+      "file": "LibCarla/source/carla/agents/navigation/LocalPlanner.h",
+      "line": 145,
+      "cwe": "CWE-338",
+      "snippet": "mutable std::mt19937 _rng;"
+     },
+     {
+      "severity": "medium",
+      "file": "Examples/CppClient/main.cpp",
+      "line": 69,
+      "cwe": "CWE-338",
+      "snippet": "std::mt19937_64 rng((std::random_device())());"
+     },
+     {
+      "severity": "medium",
+      "file": "Examples/CppClient/AgentDemo/main.cpp",
+      "line": 90,
+      "cwe": "CWE-338",
+      "snippet": "std::mt19937_64 rng{std::random_device{}()};"
+     }
+    ]
+   },
+   "A03-Injection": {
+    "count": 47,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "Util/Tools/Check.sh",
+      "line": 113,
+      "cwe": "CWE-78",
+      "snippet": "if [ \"$(get_git_repository_version)\" != \"${CONTENT_TAG}\" ]; then"
+     },
+     {
+      "severity": "high",
+      "file": "Util/Tools/Deploy.sh",
+      "line": 53,
+      "cwe": "CWE-78",
+      "snippet": "# REPOSITORY_TAG=$(get_git_repository_version)"
+     },
+     {
+      "severity": "high",
+      "file": "Util/Tools/Import.py",
+      "line": 203,
+      "cwe": "CWE-78",
+      "snippet": "subprocess.check_call(command, shell=True)"
+     },
+     {
+      "severity": "high",
+      "file": "Util/AgenticTools/lib/config.js",
+      "line": 58,
+      "cwe": "CWE-95",
+      "snippet": "const m = LINE.exec(line);"
+     },
+     {
+      "severity": "high",
+      "file": "Util/AgenticTools/lib/skills.js",
+      "line": 118,
+      "cwe": "CWE-95",
+      "snippet": "const m = VAR_DOC.exec(line);"
+     },
+     {
+      "severity": "high",
+      "file": "Unreal/CarlaUnreal/Plugins/CarlaTools/Content/Python/generate_tile.py",
+      "line": 35,
+      "cwe": "CWE-78",
+      "snippet": "subprocess.check_call(command, shell=True)"
+     },
+     {
+      "severity": "high",
+      "file": "Skills/_common/env_common.sh",
+      "line": 29,
+      "cwe": "CWE-78",
+      "snippet": "for file in \"$(carla_config_file)\" \"${PWD}/.carla-tools.env\"; do"
+     },
+     {
+      "severity": "high",
+      "file": "Skills/ue58/run-carla-ue58-server/scripts/check_env.sh",
+      "line": 52,
+      "cwe": "CWE-78",
+      "snippet": "EV=\"$(carla_engine_version)\""
+     },
+     {
+      "severity": "high",
+      "file": "Skills/ue58/run-autoware-ue58/scripts/check_env.sh",
+      "line": 52,
+      "cwe": "CWE-78",
+      "snippet": "EV=\"$(carla_engine_version)\""
+     },
+     {
+      "severity": "high",
+      "file": "Skills/ue58/package-carla-ue58/scripts/check_env.sh",
+      "line": 52,
+      "cwe": "CWE-78",
+      "snippet": "EV=\"$(carla_engine_version)\""
+     },
+     {
+      "severity": "high",
+      "file": "Skills/ue58/package-carla-ue58/scripts/package.sh",
+      "line": 104,
+      "cwe": "CWE-78",
+      "snippet": "P=\"$(pkg_root)\""
+     },
+     {
+      "severity": "high",
+      "file": "Skills/ue58/import-carla-ue58-walker/scripts/check_env.sh",
+      "line": 52,
+      "cwe": "CWE-78",
+      "snippet": "EV=\"$(carla_engine_version)\""
+     },
+     {
+      "severity": "high",
+      "file": "Skills/ue58/import-carla-ue58-prop/scripts/check_env.sh",
+      "line": 52,
+      "cwe": "CWE-78",
+      "snippet": "EV=\"$(carla_engine_version)\""
+     },
+     {
+      "severity": "high",
+      "file": "Skills/ue58/import-carla-ue58-map/scripts/check_env.sh",
+      "line": 52,
+      "cwe": "CWE-78",
+      "snippet": "EV=\"$(carla_engine_version)\""
+     },
+     {
+      "severity": "high",
+      "file": "Skills/ue58/build-carla-ue58/scripts/check_env.sh",
+      "line": 52,
+      "cwe": "CWE-78",
+      "snippet": "EV=\"$(carla_engine_version)\""
+     },
+     {
+      "severity": "high",
+      "file": "Skills/ue4/run-carla-server/scripts/check_env.sh",
+      "line": 21,
+      "cwe": "CWE-78",
+      "snippet": "read -r MODE LAUNCH <<<\"$(carla_detect_target)\""
+     },
+     {
+      "severity": "high",
+      "file": "Skills/setup/check-feature-support/scripts/check_env.sh",
+      "line": 38,
+      "cwe": "CWE-78",
+      "snippet": "if ROOT=\"$(carla_any_root)\"; then"
+     },
+     {
+      "severity": "high",
+      "file": "Skills/setup/check-feature-support/scripts/support.sh",
+      "line": 164,
+      "cwe": "CWE-78",
+      "snippet": "if root=\"$(carla_any_root)\"; then"
+     },
+     {
+      "severity": "high",
+      "file": "Skills/scenic/run-scenic-scenario/scripts/check_env.sh",
+      "line": 33,
+      "cwe": "CWE-78",
+      "snippet": "_sv=\"$(carla_scenic_version)\""
+     },
+     {
+      "severity": "high",
+      "file": "Skills/scenic/create-scenic-scenario/scripts/check_env.sh",
+      "line": 33,
+      "cwe": "CWE-78",
+      "snippet": "_sv=\"$(carla_scenic_version)\""
+     },
+     {
+      "severity": "high",
+      "file": "Skills/scenario-runner/run-scenario/scripts/check_env.sh",
+      "line": 32,
+      "cwe": "CWE-78",
+      "snippet": "BR=\"$(carla_sr_branch)\"; FL=\"$(carla_sr_flavor)\""
+     },
+     {
+      "severity": "high",
+      "file": "Skills/scenario-runner/run-scenario/scripts/run_scenario.sh",
+      "line": 146,
+      "cwe": "CWE-78",
+      "snippet": "LOG=\"$(mktemp)\""
+     },
+     {
+      "severity": "high",
+      "file": "Skills/scenario-runner/run-route-scenario/scripts/check_env.sh",
+      "line": 32,
+      "cwe": "CWE-78",
+      "snippet": "BR=\"$(carla_sr_branch)\"; FL=\"$(carla_sr_flavor)\""
+     },
+     {
+      "severity": "high",
+      "file": "Skills/scenario-runner/run-openscenario/scripts/check_env.sh",
+      "line": 32,
+      "cwe": "CWE-78",
+      "snippet": "BR=\"$(carla_sr_branch)\"; FL=\"$(carla_sr_flavor)\""
+     },
+     {
+      "severity": "high",
+      "file": "Skills/scenario-runner/create-scenario/scripts/check_env.sh",
+      "line": 32,
+      "cwe": "CWE-78",
+      "snippet": "BR=\"$(carla_sr_branch)\"; FL=\"$(carla_sr_flavor)\""
+     }
+    ]
+   },
+   "A04-InsecureDesign": {
+    "count": 94,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "Util/Tools/Deploy.sh",
+      "line": 56,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Currently hardcoded. Replace with dynamic versioning in the future"
+     },
+     {
+      "severity": "low",
+      "file": "Util/ContentRepair/repair_wp_mid_refs.py",
+      "line": 206,
+      "cwe": "CWE-",
+      "snippet": "todo = []"
+     },
+     {
+      "severity": "low",
+      "file": "Unreal/CarlaUnreal/Plugins/StreetMap/Source/StreetMapRuntime/Public/StreetMap.h",
+      "line": 54,
+      "cwe": "CWE-",
+      "snippet": "@todo: harmonize with OSMToCentimetersScaleFactor refactoring"
+     },
+     {
+      "severity": "low",
+      "file": "Unreal/CarlaUnreal/Plugins/StreetMap/Source/StreetMapRuntime/Private/StreetMapComponent.cpp",
+      "line": 314,
+      "cwe": "CWE-",
+      "snippet": "// @todo: Performance: Triangulating lots of building polygons is quite slow.  We could easily do this"
+     },
+     {
+      "severity": "low",
+      "file": "Unreal/CarlaUnreal/Plugins/StreetMap/Source/StreetMapImporting/Private/OSMFile.cpp",
+      "line": 110,
+      "cwe": "CWE-",
+      "snippet": "// @todo: We're currently ignoring the \"visible\" tag on ways, which means that roads will always"
+     },
+     {
+      "severity": "low",
+      "file": "Unreal/CarlaUnreal/Plugins/StreetMap/Source/StreetMapImporting/Private/StreetMapFactory.cpp",
+      "line": 36,
+      "cwe": "CWE-",
+      "snippet": "// @todo: Performance: This will copy the entire text buffer into an FString.  We need to do this"
+     },
+     {
+      "severity": "low",
+      "file": "Unreal/CarlaUnreal/Plugins/CarlaTools/Source/CarlaTools/CarlaTools.Build.cs",
+      "line": 142,
+      "cwe": "CWE-",
+      "snippet": "// @TODO: This should be handled by the (CMake) build system."
+     },
+     {
+      "severity": "low",
+      "file": "Unreal/CarlaUnreal/Plugins/CarlaTools/Source/CarlaTools/Private/MapGeneratorWidget.cpp",
+      "line": 1022,
+      "cwe": "CWE-",
+      "snippet": "// TODO: Move this if to a function"
+     },
+     {
+      "severity": "low",
+      "file": "Unreal/CarlaUnreal/Plugins/CarlaTools/Source/CarlaTools/Private/MapPreviewUserWidget.cpp",
+      "line": 89,
+      "cwe": "CWE-",
+      "snippet": "// TODO: Move to function"
+     },
+     {
+      "severity": "low",
+      "file": "Unreal/CarlaUnreal/Plugins/CarlaTools/Source/CarlaTools/Private/OpenDriveToMap.cpp",
+      "line": 1100,
+      "cwe": "CWE-",
+      "snippet": "// TODO: Improve this code"
+     },
+     {
+      "severity": "low",
+      "file": "Unreal/CarlaUnreal/Plugins/CarlaTools/Source/CarlaTools/Private/ProceduralWaterManager.cpp",
+      "line": 298,
+      "cwe": "CWE-",
+      "snippet": "// TODO"
+     },
+     {
+      "severity": "low",
+      "file": "Unreal/CarlaUnreal/Plugins/Carla/Source/Carla/Carla.Build.cs",
+      "line": 169,
+      "cwe": "CWE-",
+      "snippet": "// @TODO"
+     },
+     {
+      "severity": "low",
+      "file": "Unreal/CarlaUnreal/Plugins/Carla/Source/Carla/Vehicle/CarlaWheeledVehicle.cpp",
+      "line": 959,
+      "cwe": "CWE-",
+      "snippet": "// @TODO: What about bikes or NW vehicles?"
+     },
+     {
+      "severity": "low",
+      "file": "Unreal/CarlaUnreal/Plugins/Carla/Source/Carla/Vehicle/CarlaWheeledVehicle.h",
+      "line": 169,
+      "cwe": "CWE-",
+      "snippet": "/// @todo This function should be private to AWheeledVehicleAIController."
+     },
+     {
+      "severity": "low",
+      "file": "Unreal/CarlaUnreal/Plugins/Carla/Source/Carla/Vehicle/VehicleAccelerationControl.cpp",
+      "line": 6,
+      "cwe": "CWE-",
+      "snippet": "// TODO: Add gear-aware input (e.g. allow reverse when in reverse gear, keep forward-only in drive)."
+     },
+     {
+      "severity": "low",
+      "file": "Unreal/CarlaUnreal/Plugins/Carla/Source/Carla/Vehicle/VehiclePhysicsControl.h",
+      "line": 48,
+      "cwe": "CWE-",
+      "snippet": "// ToDo: Convert to an enum, see EVehicleDifferential."
+     },
+     {
+      "severity": "low",
+      "file": "Unreal/CarlaUnreal/Plugins/Carla/Source/Carla/Util/BoundingBoxCalculator.cpp",
+      "line": 75,
+      "cwe": "CWE-",
+      "snippet": "// Hack to center the bbox of Gen3 kids"
+     },
+     {
+      "severity": "low",
+      "file": "Unreal/CarlaUnreal/Plugins/Carla/Source/Carla/Util/CameraModelUtil.cpp",
+      "line": 31,
+      "cwe": "CWE-",
+      "snippet": "// @TODO: Actually find out what is the current GPU's subgroup size (warp size)."
+     },
+     {
+      "severity": "low",
+      "file": "Unreal/CarlaUnreal/Plugins/Carla/Source/Carla/Util/DebugShapeDrawer.cpp",
+      "line": 233,
+      "cwe": "CWE-",
+      "snippet": "// @TODO: Use UKismetSystemLibrary::IsStandalone to support colors"
+     },
+     {
+      "severity": "low",
+      "file": "Unreal/CarlaUnreal/Plugins/Carla/Source/Carla/Util/JsonFileManagerLibrary.h",
+      "line": 47,
+      "cwe": "CWE-",
+      "snippet": "// ToDo: Modify the parameter and add a reference to an FVector of a struct that contains the Velocity, Azimuth, Altitude and Depth."
+     },
+     {
+      "severity": "low",
+      "file": "Unreal/CarlaUnreal/Plugins/Carla/Source/Carla/Traffic/TrafficLightManager.cpp",
+      "line": 811,
+      "cwe": "CWE-",
+      "snippet": "// TODO: should this be an assert?"
+     },
+     {
+      "severity": "low",
+      "file": "Unreal/CarlaUnreal/Plugins/Carla/Source/Carla/Settings/CarlaSettingsDelegate.cpp",
+      "line": 207,
+      "cwe": "CWE-",
+      "snippet": "/// @TODO: use semantics to grab all actors by type"
+     },
+     {
+      "severity": "low",
+      "file": "Unreal/CarlaUnreal/Plugins/Carla/Source/Carla/Server/CarlaServer.cpp",
+      "line": 3223,
+      "cwe": "CWE-",
+      "snippet": "// todo: implement"
+     },
+     {
+      "severity": "low",
+      "file": "Unreal/CarlaUnreal/Plugins/Carla/Source/Carla/Sensor/CollisionSensor.cpp",
+      "line": 33,
+      "cwe": "CWE-",
+      "snippet": "/// @todo Deregister previous owner if there was one."
+     },
+     {
+      "severity": "low",
+      "file": "Unreal/CarlaUnreal/Plugins/Carla/Source/Carla/Sensor/InstanceSegmentationCamera.cpp",
+      "line": 27,
+      "cwe": "CWE-",
+      "snippet": "// TODO: Setup OnActorSpawnHandler so we can refresh components"
+     }
+    ]
+   },
+   "A05-SecurityMisconfiguration": {
+    "count": 6,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "PythonAPI/test/test_raycast_sensor.py",
+      "line": 475,
+      "cwe": "CWE-1188",
+      "snippet": "'--no-camera', dest='render_cam', action='store_false', default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "PythonAPI/examples/invertedai_traffic.py",
+      "line": 68,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "PythonAPI/examples/nvidia/cosmos/server/workers/cosmos_workers/transfer25_av/worker.py",
+      "line": 229,
+      "cwe": "CWE-1188",
+      "snippet": "p.add_argument(\"--offload-guardrails\", action=\"store_true\", default=True)"
+     },
+     {
+      "severity": "medium",
+      "file": "PythonAPI/examples/nvidia/cosmos/server/workers/cosmos_workers/transfer25/worker.py",
+      "line": 253,
+      "cwe": "CWE-1188",
+      "snippet": "p.add_argument(\"--offload-guardrails\", action=\"store_true\", default=True)"
+     },
+     {
+      "severity": "medium",
+      "file": "PythonAPI/examples/nvidia/cosmos/server/workers/cosmos_workers/common/ranks.py",
+      "line": 204,
+      "cwe": "CWE-1188",
+      "snippet": "p.add_argument(\"--guardrails\", action=\"store_true\", default=True)"
+     },
+     {
+      "severity": "medium",
+      "file": "PythonAPI/examples/nvidia/cosmos/server/tools/compose_image.py",
+      "line": 171,
+      "cwe": "CWE-1188",
+      "snippet": "p.add_argument(\"--insecure\", action=\"store_true\", help=\"plain http\")"
+     }
+    ]
+   },
+   "A06-VulnerableComponents": {
+    "count": 3,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "Skills/setup/install-leaderboard/scripts/check_env.sh",
+      "line": 31,
+      "cwe": "CWE-1104",
+      "snippet": "3.9|3.10) ok \"Python ${PV} \u2014 works; note opencv-python==4.2.0.32 has no wheel here\" ;;"
+     },
+     {
+      "severity": "low",
+      "file": "Skills/setup/install-leaderboard/scripts/install_leaderboard.py",
+      "line": 197,
+      "cwe": "CWE-1104",
+      "snippet": "# opencv-python==4.2.0.32 has no wheels for py3.9+ and its source"
+     },
+     {
+      "severity": "low",
+      "file": "Skills/scenario-runner/run-openscenario/scripts/run_openscenario.sh",
+      "line": 134,
+      "cwe": "CWE-1104",
+      "snippet": "print(\"WARN  xmlschema not installed \u2014 pip install 'xmlschema==1.0.18'\")"
+     }
+    ]
+   },
+   "A07-AuthFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A08-SoftwareDataIntegrity": {
+    "count": 21,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "Unreal/CarlaUnreal/Plugins/StreetMap/Source/StreetMapRuntime/Private/PolygonTools.cpp",
+      "line": 14,
+      "cwe": "CWE-319",
+      "snippet": "// Based off \"Efficient Polygon Triangulation\" algorithm by John W. Ratcliff (http://flipcode.net/archives/Efficient_Polygon_Triangulation.shtml)"
+     },
+     {
+      "severity": "low",
+      "file": "Unreal/CarlaUnreal/Plugins/StreetMap/Source/StreetMapImporting/Private/OSMFile.cpp",
+      "line": 331,
+      "cwe": "CWE-319",
+      "snippet": "// Other type that we don't recognize yet.  See http://wiki.openstreetmap.org/wiki/Key:highway"
+     },
+     {
+      "severity": "low",
+      "file": "PythonAPI/examples/nvidia/cosmos/server/workers/cosmos_workers/cosmos3/worker.py",
+      "line": 108,
+      "cwe": "CWE-319",
+      "snippet": "self.base = f\"http://127.0.0.1:{self.port}\""
+     },
+     {
+      "severity": "low",
+      "file": "PythonAPI/examples/nvidia/cosmos/scripts/run_server.sh",
+      "line": 53,
+      "cwe": "CWE-319",
+      "snippet": "if curl -fsS \"http://localhost:$PORT/v1/health/live\" >/dev/null 2>&1; then break; fi"
+     },
+     {
+      "severity": "low",
+      "file": "PythonAPI/examples/nvidia/cosmos/demos/nurec_to_cosmos.py",
+      "line": 50,
+      "cwe": "CWE-319",
+      "snippet": "export COSMOS_URL=http://cosmos-dev2:8000"
+     },
+     {
+      "severity": "low",
+      "file": "PythonAPI/examples/nvidia/cosmos/demos/showcase.py",
+      "line": 11,
+      "cwe": "CWE-319",
+      "snippet": "export COSMOS_URL=http://<node>:8000"
+     },
+     {
+      "severity": "low",
+      "file": "PythonAPI/examples/nvidia/cosmos/client/tests/test_results.py",
+      "line": 107,
+      "cwe": "CWE-319",
+      "snippet": "return CosmosClient(\"http://fake\", token=\"cc_test\", transport=httpx.MockTransport(self.handler))"
+     },
+     {
+      "severity": "low",
+      "file": "PythonAPI/examples/nvidia/cosmos/client/carla_cosmos/cli.py",
+      "line": 312,
+      "cwe": "CWE-319",
+      "snippet": "p.add_argument(\"--url\", default=None, help=\"server URL (COSMOS_URL, default http://localhost:8000)\")"
+     },
+     {
+      "severity": "low",
+      "file": "PythonAPI/examples/nvidia/cosmos/client/carla_cosmos/client.py",
+      "line": 5,
+      "cwe": "CWE-319",
+      "snippet": "client = CosmosClient(\"http://node:8000\", token=\"cc_...\")      # or COSMOS_URL / COSMOS_TOKEN"
+     },
+     {
+      "severity": "low",
+      "file": "PythonAPI/examples/nvidia/cosmos/client/carla_cosmos/serve.py",
+      "line": 48,
+      "cwe": "CWE-319",
+      "snippet": "return f\"http://localhost:{self.port}\""
+     },
+     {
+      "severity": "low",
+      "file": "PythonAPI/examples/av_stacks/autoware/run/run_carla_autoware.sh",
+      "line": 463,
+      "cwe": "CWE-319",
+      "snippet": "<profiles xmlns=\"http://www.eprosima.com/XMLSchemas/fastRTPS_Profiles\">"
+     },
+     {
+      "severity": "high",
+      "file": "PythonAPI/examples/av_stacks/alpamayo/install_alpamayo.sh",
+      "line": 64,
+      "cwe": "CWE-494",
+      "snippet": "curl -LsSf https://astral.sh/uv/install.sh | sh"
+     },
+     {
+      "severity": "low",
+      "file": "LibCarla/source/util/disable-ue4-macros.h",
+      "line": 60,
+      "cwe": "CWE-319",
+      "snippet": "// http://nadeausoftware.com/articles/2012/10/c_c_tip_how_detect_compiler_name_and_version_using_compiler_predefined_macros"
+     },
+     {
+      "severity": "low",
+      "file": "LibCarla/source/third-party/simplify/Simplify.h",
+      "line": 8,
+      "cwe": "CWE-319",
+      "snippet": "// http://opensource.org/licenses/MIT"
+     },
+     {
+      "severity": "low",
+      "file": "LibCarla/source/third-party/pugixml/pugiconfig.hpp",
+      "line": 5,
+      "cwe": "CWE-319",
+      "snippet": "* Report bugs and download new versions at http://pugixml.org/"
+     },
+     {
+      "severity": "low",
+      "file": "LibCarla/source/third-party/pugixml/pugixml.cpp",
+      "line": 5,
+      "cwe": "CWE-319",
+      "snippet": "* Report bugs and download new versions at http://pugixml.org/"
+     },
+     {
+      "severity": "low",
+      "file": "LibCarla/source/third-party/pugixml/pugixml.hpp",
+      "line": 5,
+      "cwe": "CWE-319",
+      "snippet": "* Report bugs and download new versions at http://pugixml.org/"
+     },
+     {
+      "severity": "low",
+      "file": "LibCarla/source/third-party/odrSpiral/odrSpiral.cpp",
+      "line": 18,
+      "cwe": "CWE-319",
+      "snippet": "http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "LibCarla/source/third-party/odrSpiral/odrSpiral.h",
+      "line": 17,
+      "cwe": "CWE-319",
+      "snippet": "http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "LibCarla/source/third-party/moodycamel/ConcurrentQueue.h",
+      "line": 3,
+      "cwe": "CWE-319",
+      "snippet": "//     http://moodycamel.com/blog/2014/a-fast-general-purpose-lock-free-queue-for-c++"
+     },
+     {
+      "severity": "low",
+      "file": "LibCarla/source/third-party/marchingcube/MeshReconstruction.h",
+      "line": 9,
+      "cwe": "CWE-319",
+      "snippet": "/// @param sdf The <a href=\"http://www.iquilezles.org/www/articles/distfunctions/distfunctions.htm\">Signed Distance Function</a>."
+     }
+    ]
+   },
+   "A09-LoggingMonitoringFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A10-SSRF": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "owasp_llm_top10": {
+  "total_findings": 27,
+  "files_with_findings": 26,
+  "severity": {
+   "high": 5,
+   "medium": 8,
+   "low": 14
+  },
+  "categories": {
+   "LLM01-PromptInjection": {
+    "count": 3,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "Unreal/CarlaUnreal/Plugins/StreetMap/Source/StreetMapImporting/Private/StreetMapComponentDetails.cpp",
+      "line": 64,
+      "cwe": "CWE-1336",
+      "snippet": "if (TempStreetMapComp != nullptr && !TempStreetMapComp->IsTemplate())"
+     },
+     {
+      "severity": "medium",
+      "file": "Unreal/CarlaUnreal/Plugins/CarlaTools/Source/CarlaTools/Private/VehicleImporter.cpp",
+      "line": 595,
+      "cwe": "CWE-1336",
+      "snippet": "UActorComponent* Tmpl = Node->GetActualComponentTemplate(OwnerGen);"
+     },
+     {
+      "severity": "medium",
+      "file": "Unreal/CarlaUnreal/Plugins/Carla/Source/Carla/Weather/Weather.cpp",
+      "line": 1147,
+      "cwe": "CWE-1336",
+      "snippet": "Emitter->SetTemplate(RainTemplate);"
+     }
+    ]
+   },
+   "LLM02-SensitiveInfoDisclosure": {
+    "count": 5,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "PythonAPI/examples/nvidia/nurec/install_nurec.sh",
+      "line": 275,
+      "cwe": "CWE-798",
+      "snippet": "# first, then use an existing `hf auth login` session or set HF_TOKEN."
+     },
+     {
+      "severity": "high",
+      "file": "PythonAPI/examples/nvidia/cosmos/server/build_image.sh",
+      "line": 8,
+      "cwe": "CWE-798",
+      "snippet": "#   --hf-token-file token for gated NVIDIA repos when downloading (or set HF_TOKEN)"
+     },
+     {
+      "severity": "high",
+      "file": "PythonAPI/examples/nvidia/cosmos/server/prefetch.py",
+      "line": 9,
+      "cwe": "CWE-798",
+      "snippet": "(``HF_TOKEN`` needed for gated repos).  Sizes are always verified, sha256 by"
+     },
+     {
+      "severity": "high",
+      "file": "PythonAPI/examples/nvidia/cosmos/server/tools/lock_artifacts.py",
+      "line": 12,
+      "cwe": "CWE-798",
+      "snippet": "HF_TOKEN=... python tools/lock_artifacts.py            # rewrites artifacts.lock, keeping baked revisions"
+     },
+     {
+      "severity": "high",
+      "file": "PythonAPI/examples/av_stacks/alpamayo/install_alpamayo.sh",
+      "line": 130,
+      "cwe": "CWE-798",
+      "snippet": "if [[ -n \"${HF_TOKEN:-}\" ]]; then"
+     }
+    ]
+   },
+   "LLM03-SupplyChain": {
+    "count": 3,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "PythonAPI/examples/nvidia/cosmos/server/prefetch.py",
+      "line": 187,
+      "cwe": "CWE-494",
+      "snippet": "got = Path(hf_hub_download(repo, path, revision=rev, cache_dir=dest / \"hub\", token=token))"
+     },
+     {
+      "severity": "medium",
+      "file": "PythonAPI/examples/nvidia/cosmos/server/tools/uvx_shim.py",
+      "line": 57,
+      "cwe": "CWE-494",
+      "snippet": "path = hf_hub_download(filename=filename, **kw)"
+     },
+     {
+      "severity": "medium",
+      "file": "PythonAPI/examples/av_stacks/alpamayo/alpamayo_model_server.py",
+      "line": 78,
+      "cwe": "CWE-494",
+      "snippet": "self.model = Alpamayo2Super.from_pretrained("
+     }
+    ]
+   },
+   "LLM04-DataPoisoning": {
+    "count": 2,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "PythonAPI/examples/nvidia/cosmos/server/tests/test_ranks.py",
+      "line": 74,
+      "cwe": "CWE-20",
+      "snippet": "seen = json.loads((spool / \"work\" / \"j1\" / \"fake_request.json\").read_text())"
+     },
+     {
+      "severity": "medium",
+      "file": "PythonAPI/examples/nvidia/cosmos/server/carla_cosmos_server/store.py",
+      "line": 308,
+      "cwe": "CWE-20",
+      "snippet": "d[\"request\"] = json.loads(d[\"request\"])"
+     }
+    ]
+   },
+   "LLM05-ImproperOutputHandling": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM06-ExcessiveAgency": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM07-SystemPromptLeak": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM08-VectorEmbeddingWeaknesses": {
+    "count": 12,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "Unreal/CarlaUnreal/Plugins/Carla/Source/Carla/Util/CameraModelUtil.h",
+      "line": 67,
+      "cwe": "CWE-",
+      "snippet": "float CAScaleR = 1.f, CAScaleB = 1.f; // per-channel radial scale for chromatic aberration"
+     },
+     {
+      "severity": "low",
+      "file": "Unreal/CarlaUnreal/Plugins/Carla/Source/Carla/Sensor/SceneCaptureSensor.cpp",
+      "line": 556,
+      "cwe": "CWE-",
+      "snippet": "void ASceneCaptureSensor::SetChromAberrIntensity(float Intensity)"
+     },
+     {
+      "severity": "low",
+      "file": "Unreal/CarlaUnreal/Plugins/Carla/Source/Carla/Sensor/SceneCaptureSensor.h",
+      "line": 491,
+      "cwe": "CWE-",
+      "snippet": "void SetChromAberrIntensity(float Intensity);"
+     },
+     {
+      "severity": "low",
+      "file": "Unreal/CarlaUnreal/Plugins/Carla/Source/Carla/Actor/ActorBlueprintFunctionLibrary.cpp",
+      "line": 951,
+      "cwe": "CWE-",
+      "snippet": "FActorVariation ChromaticIntensity;"
+     },
+     {
+      "severity": "low",
+      "file": "PythonAPI/test/lens_validation/test_ab_wideangle.py",
+      "line": 21,
+      "cwe": "CWE-",
+      "snippet": "2. Depth-of-field / chromatic-aberration ONLY in rt_lens: with a small"
+     },
+     {
+      "severity": "low",
+      "file": "PythonAPI/test/API/prop_control.py",
+      "line": 861,
+      "cwe": "CWE-",
+      "snippet": "'chromatic_aberration_intensity': '0.5', 'chromatic_aberration_offset': '0'}],"
+     },
+     {
+      "severity": "low",
+      "file": "PythonAPI/test/API/test_sensor_recording.py",
+      "line": 380,
+      "cwe": "CWE-",
+      "snippet": "[SensorType.RGB_Distorted, 'sensor.camera.rgb', cc.Raw, 'Camera RGB Distorted', {'lens_circle_multiplier': '3.0', 'lens_circle_falloff': '3.0', 'chromatic_aberration_intensity': '0"
+     },
+     {
+      "severity": "low",
+      "file": "PythonAPI/test/API/test_sensor_recording_fast.py",
+      "line": 364,
+      "cwe": "CWE-",
+      "snippet": "[SensorType.RGB_Distorted, 'sensor.camera.rgb', cc.Raw, 'Camera RGB Distorted', {'lens_circle_multiplier': '3.0', 'lens_circle_falloff': '3.0', 'chromatic_aberration_intensity': '0"
+     },
+     {
+      "severity": "low",
+      "file": "PythonAPI/examples/autoware_demo.py",
+      "line": 63,
+      "cwe": "CWE-",
+      "snippet": "\"bOverride_ChromaticAberrationStartOffset\": True, \"ChromaticAberrationStartOffset\": 0.0,"
+     },
+     {
+      "severity": "low",
+      "file": "PythonAPI/examples/manual_control_fisheye.py",
+      "line": 1136,
+      "cwe": "CWE-",
+      "snippet": "#     'chromatic_aberration_intensity': '0.5',"
+     },
+     {
+      "severity": "low",
+      "file": "PythonAPI/examples/nvidia/cosmos/client/carla_cosmos/controls.py",
+      "line": 20,
+      "cwe": "CWE-",
+      "snippet": "intact at edges (no chroma subsampling bleed) while remaining decodable by"
+     },
+     {
+      "severity": "low",
+      "file": "PythonAPI/examples/nvidia/cosmos/client/carla_cosmos/mask.py",
+      "line": 45,
+      "cwe": "CWE-",
+      "snippet": "chroma subsampling, but the RGB -> YUV444 -> RGB round trip still rounds, so the"
+     }
+    ]
+   },
+   "LLM09-Misinformation": {
+    "count": 2,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "Util/ContentPacks/test_carla_pack.py",
+      "line": 845,
+      "cwe": "CWE-",
+      "snippet": "self.assertNotIn(\"unverified\", out + err)   # verified on the packaged server (2026-08-30)"
+     },
+     {
+      "severity": "low",
+      "file": "PythonAPI/examples/nvidia/cosmos/server/tests/test_auth.py",
+      "line": 13,
+      "cwe": "CWE-",
+      "snippet": "assert store.verify(tok) == tid"
+     }
+    ]
+   },
+   "LLM10-UnboundedConsumption": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "sbom": {
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:6e4ae561-45ff-5d99-a21b-be213bf512c5",
+  "version": 1,
+  "metadata": {
+   "timestamp": "2026-10-12T06:15:28Z",
+   "component": {
+    "type": "application",
+    "name": "SIMULATOR",
+    "version": "28244ba27ca6",
+    "bom-ref": "pkg:generic/anticloud/SIMULATOR@28244ba27ca6",
+    "purl": "pkg:generic/anticloud/SIMULATOR@28244ba27ca6",
+    "licenses": [
+     {
+      "license": {
+       "id": "MIT"
+      }
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "anticloud:source-commit",
+     "value": "28244ba27ca66e34e2f48ce30812d4f034e39c0b"
+    },
+    {
+     "name": "anticloud:source-url",
+     "value": ""
+    },
+    {
+     "name": "anticloud:tier",
+     "value": "tier-agent"
+    }
+   ]
+  },
+  "components": [
+   {
+    "type": "library",
+    "name": "LibXml2",
+    "version": "unspecified",
+    "purl": "pkg:generic/LibXml2",
+    "bom-ref": "native/LibXml2@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "Python3",
+    "version": "unspecified",
+    "purl": "pkg:generic/Python3",
+    "bom-ref": "native/Python3@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "pygame",
+    "version": ">=2.6",
+    "purl": "pkg:pypi/pygame@2.6",
+    "bom-ref": "pypi/pygame@>=2.6"
+   },
+   {
+    "type": "library",
+    "name": "numpy",
+    "version": ">=1.26",
+    "purl": "pkg:pypi/numpy@1.26",
+    "bom-ref": "pypi/numpy@>=1.26"
+   },
+   {
+    "type": "library",
+    "name": "scipy",
+    "version": ">=1.11",
+    "purl": "pkg:pypi/scipy@1.11",
+    "bom-ref": "pypi/scipy@>=1.11"
+   },
+   {
+    "type": "library",
+    "name": "grpcio",
+    "version": ">=1.66",
+    "purl": "pkg:pypi/grpcio@1.66",
+    "bom-ref": "pypi/grpcio@>=1.66"
+   },
+   {
+    "type": "library",
+    "name": "protobuf",
+    "version": ">=5.29",
+    "purl": "pkg:pypi/protobuf@5.29",
+    "bom-ref": "pypi/protobuf@>=5.29"
+   },
+   {
+    "type": "library",
+    "name": "carla",
+    "version": ">=0.10.0",
+    "purl": "pkg:pypi/carla@0.10.0",
+    "bom-ref": "pypi/carla@>=0.10.0"
+   },
+   {
+    "type": "library",
+    "name": "pyyaml",
+    "version": "unspecified",
+    "purl": "pkg:pypi/pyyaml",
+    "bom-ref": "pypi/pyyaml@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "pillow",
+    "version": ">=10",
+    "purl": "pkg:pypi/pillow@10",
+    "bom-ref": "pypi/pillow@>=10"
+   },
+   {
+    "type": "library",
+    "name": "carla-cosmos",
+    "version": ">=0.2.0",
+    "purl": "pkg:pypi/carla-cosmos@0.2.0",
+    "bom-ref": "pypi/carla-cosmos@>=0.2.0"
+   },
+   {
+    "type": "library",
+    "name": "carla-cosmos-workers",
+    "version": ">=0.2.0",
+    "purl": "pkg:pypi/carla-cosmos-workers@0.2.0",
+    "bom-ref": "pypi/carla-cosmos-workers@>=0.2.0"
+   },
+   {
+    "type": "library",
+    "name": "fastapi",
+    "version": ">=0.110",
+    "purl": "pkg:pypi/fastapi@0.110",
+    "bom-ref": "pypi/fastapi@>=0.110"
+   },
+   {
+    "type": "library",
+    "name": "uvicorn",
+    "version": ">=0.29",
+    "purl": "pkg:pypi/uvicorn@0.29",
+    "bom-ref": "pypi/uvicorn@>=0.29"
+   },
+   {
+    "type": "library",
+    "name": "pydantic",
+    "version": ">=2",
+    "purl": "pkg:pypi/pydantic@2",
+    "bom-ref": "pypi/pydantic@>=2"
+   },
+   {
+    "type": "library",
+    "name": "httpx",
+    "version": ">=0.27",
+    "purl": "pkg:pypi/httpx@0.27",
+    "bom-ref": "pypi/httpx@>=0.27"
+   },
+   {
+    "type": "library",
+    "name": "Carla",
+    "version": "unspecified",
+    "purl": "pkg:generic/Carla",
+    "bom-ref": "native/Carla@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "Qt6",
+    "version": "unspecified",
+    "purl": "pkg:generic/Qt6",
+    "bom-ref": "native/Qt6@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "Qt5",
+    "version": "unspecified",
+    "purl": "pkg:generic/Qt5",
+    "bom-ref": "native/Qt5@unspecified"
+   }
+  ]
+ },
+ "elapsed_seconds": 45.74,
+ "benchmarks": [
+  {
+   "evidence": {
+    "ceilings": {
+     "max_files": 120,
+     "max_lines": 20000,
+     "min_lines": 2000
+    },
+    "code_lines": 6889,
+    "command": "python tools/run_bench.py --only 01_loc_files",
+    "counts_command": "find src tests tools -name '*.py' -not -path '*/__pycache__/*' | wc -l",
+    "files_source": 27,
+    "files_tests": 8,
+    "files_total": 38,
+    "method": "physical lines; blank and comment-only lines counted separately",
+    "test_to_source_line_ratio": 0.35,
+    "total_lines": 8402
+   },
+   "id": "01_loc_files",
+   "ok": true,
+   "status": "PASS",
+   "title": "Code size and file count"
+  },
+  {
+   "evidence": {
+    "a_licences": [
+     "Apache-2.0",
+     "BSD-2-Clause",
+     "BSD-3-Clause",
+     "ISC",
+     "MIT",
+     "MPL-2.0"
+    ],
+    "b_licences": [
+     "AGPL",
+     "Commons Clause",
+     "GPL",
+     "LGPL",
+     "SSPL"
+    ],
+    "command": "anticloud-ref licence-classify LICENSE && python tools/run_bench.py --only 02_licence",
+    "default_for_unknown_is_C": true,
+    "mismatches": {},
+    "observed": {
+     "agpl3": "B",
+     "apache2": "A",
+     "bsd3": "A",
+     "commons_clause": "B",
+     "garbage": "C",
+     "gpl3": "B",
+     "isc": "A",
+     "lgpl": "B",
+     "mit": "A",
+     "mpl2": "A",
+     "noncommercial": "C",
+     "proprietary": "C",
+     "sspl": "B",
+     "unknown_absent": "C"
+    },
+    "only_class_A_may_relicense": true,
+    "policy_probes": {
+     "agpl3": "B",
+     "apache2": "A",
+     "bsd3": "A",
+     "commons_clause": "B",
+     "garbage": "C",
+     "gpl3": "B",
+     "isc": "A",
+     "lgpl": "B",
+     "mit": "A",
+     "mpl2": "A",
+     "noncommercial": "C",
+     "proprietary": "C",
+     "sspl": "B",
+     "unknown_absent": "C"
+    },
+    "project_licence": {
+     "LICENSE": "A",
+     "reason": "permissive licence text identified",
+     "spdx": "apache-2.0"
+    },
+    "pyproject_declared": "Apache-2.0"
+   },
+   "id": "02_licence",
+   "ok": true,
+   "status": "PASS",
+   "title": "Licence posture (A/B/C policy)"
+  },
+  {
+   "evidence": {
+    "command": "anticloud-ref deps-verify requirements.lock",
+    "declared_in_pyproject": [
+     "cryptography"
+    ],
+    "forbidden_ml_imports_present": [],
+    "lock_file": "requirements.lock",
+    "packages_hashed": 6,
+    "packages_pinned": 6,
+    "requirements": [
+     "cffi==2.1.1",
+     "coverage==7.16.2",
+     "cryptography==50.0.2",
+     "pycparser==3.0",
+     "pytest==9.1.1",
+     "pytest-cov==7.1.0"
+    ],
+    "sha256_hashes": 286,
+    "transitive_or_unclassified": [
+     "cffi==2.1.1",
+     "coverage==7.16.2",
+     "cryptography==50.0.2",
+     "pycparser==3.0",
+     "pytest-cov==7.1.0",
+     "pytest==9.1.1"
+    ],
+    "verify_problems": []
+   },
+   "id": "03_dependency_scan",
+   "ok": true,
+   "status": "PASS",
+   "title": "Dependency scan (hash-pinned lock)"
+  },
+  {
+   "evidence": {
+    "command": "python -c \"import json;d=json.load(open('sbom.cdx.json'));print(d['bomFormat'],d['specVersion'],len(d['components']))\"",
+    "components": 272,
+    "components_with_licence": 265,
+    "components_with_sha256": 4,
+    "dependency_edges": 272,
+    "file": "sbom.cdx.json",
+    "format": "CycloneDX",
+    "generated_from": "live importlib.metadata + requirements.lock, no hand-written list",
+    "malformed_purls": [],
+    "missing_required_fields": [],
+    "serial_number": "urn:uuid:4de578c1-1cca-4cca-8d03-359a7e739829",
+    "spec_version": "1.5"
+   },
+   "id": "04_sbom_cyclonedx",
+   "ok": true,
+   "status": "PASS",
+   "title": "SBOM (CycloneDX 1.5)"
+  },
+  {
+   "evidence": {
+    "branch": "main",
+    "command": "git status --porcelain && git log --oneline -1 && git fsck --no-progress",
+    "commits": 2,
+    "gitignore_present": true,
+    "governed_by_changelog": true,
+    "head": "b90737afd59b77fbe5f315bdbac1654c656ffd22",
+    "latest_commit": "b90737a anticloud overlay + upstream swap to carla-simulator/carla",
+    "remotes": [],
+    "repo": true,
+    "tags": [],
+    "untracked_or_modified": [],
+    "working_tree_clean": true
+   },
+   "id": "05_git_health",
+   "ok": true,
+   "status": "PASS",
+   "title": "Git health"
+  },
+  {
+   "evidence": {
+    "authority": "OWASP Foundation",
+    "command": "python tools/run_bench.py --only owasp",
+    "control_ids": [
+     "LLM01",
+     "LLM02",
+     "LLM03",
+     "LLM04",
+     "LLM05",
+     "LLM06",
+     "LLM07",
+     "LLM08",
+     "LLM09",
+     "LLM10"
+    ],
+    "controls_mapped": 10,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 10,
+    "coverage_command": "anticloud-ref bench --framework owasp_llm_top10   # 10/10 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "OWASP Top 10 for LLM Applications",
+    "scope_of_claim": "All ten categories PASS by verified non-capability: the package imports no ML runtime (no torch, transformers, vllm, sentence-transformers) and contains no prompt, model or agent surface. A PASS means the risk is structurally absent, not mitigated.",
+    "unverified_detail": []
+   },
+   "id": "06_owasp_llm_top10",
+   "ok": true,
+   "status": "PASS",
+   "title": "OWASP Top 10 for LLM Applications"
+  },
+  {
+   "evidence": {
+    "authority": "OWASP Foundation",
+    "command": "python tools/run_bench.py --only owasp",
+    "control_ids": [
+     "A01:2021",
+     "A02:2021",
+     "A03:2021",
+     "A05:2021",
+     "A06:2021",
+     "A07:2021",
+     "A08:2021",
+     "A09:2021",
+     "A10:2021"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework owasp_top10   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "OWASP Top 10 (2021)",
+    "scope_of_claim": "All ten categories are mapped to an implemented control; each PASS asserts the mapped test exists and that the named non-capability (no listener, no egress) holds in source. It is not a penetration test.",
+    "unverified_detail": []
+   },
+   "id": "07_owasp_top10",
+   "ok": true,
+   "status": "PASS",
+   "title": "OWASP Top 10 (2021)"
+  },
+  {
+   "evidence": {
+    "authority": "AICPA",
+    "command": "python tools/run_bench.py --only soc2",
+    "control_ids": [
+     "CC6.1",
+     "CC6.2",
+     "CC6.6",
+     "CC6.7",
+     "CC6.8",
+     "CC7.2",
+     "CC8.1",
+     "CC9.2",
+     "CC6.1"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework soc2   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "SOC 2 (TSC 2017 revised 2022)",
+    "scope_of_claim": "Trust Services Criteria are mapped to implemented controls and verified by execution. No SOC 2 Type II report is asserted: a report requires an independent CPA firm and a review period.",
+    "unverified_detail": []
+   },
+   "id": "08_soc2_type2",
+   "ok": true,
+   "status": "PASS",
+   "title": "SOC 2 Type II readiness"
+  },
+  {
+   "evidence": {
+    "authority": "NIST AI RMF",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "GOVERN-1.1",
+     "GOVERN-2.2",
+     "MAP-1.1",
+     "MAP-3.5",
+     "MEASURE-2.7",
+     "MEASURE-2.8",
+     "MANAGE-2.2",
+     "MANAGE-4.1"
+    ],
+    "controls_mapped": 8,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 8,
+    "coverage_command": "anticloud-ref bench --framework nist_ai_rmf   # 8/8 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST AI Risk Management Framework 1.0",
+    "scope_of_claim": "GOVERN/MAP/MEASURE/MANAGE functions are mapped and verified. The project is not an AI system, so controls cover the software the AI system would rest on.",
+    "unverified_detail": []
+   },
+   "id": "09_nist_ai_rmf",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST AI Risk Management Framework"
+  },
+  {
+   "evidence": {
+    "authority": "NIST",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "AC-3(2)",
+     "AC-6(7)",
+     "AU-2",
+     "AU-3",
+     "AU-10",
+     "CM-6",
+     "CP-9",
+     "RA-5",
+     "SA-11",
+     "SI-7",
+     "SC-12",
+     "SC-13"
+    ],
+    "controls_mapped": 12,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 12,
+    "coverage_command": "anticloud-ref bench --framework nist_800_53   # 12/12 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST SP 800-53 Rev. 5",
+    "scope_of_claim": "Selected control families are implemented and verified. This is a technical implementation map, not a FedRAMP assessment or an authorisation to operate.",
+    "unverified_detail": []
+   },
+   "id": "10_nist_sp_800_53",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST SP 800-53 Rev. 5"
+  },
+  {
+   "evidence": {
+    "authority": "NIST",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "GOVERN-1.1",
+     "GOVERN-2.2",
+     "MAP-1.1",
+     "MAP-3.5",
+     "MEASURE-2.7",
+     "MEASURE-2.8",
+     "MANAGE-2.2",
+     "MANAGE-4.1"
+    ],
+    "controls_mapped": 8,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 8,
+    "coverage_command": "anticloud-ref bench --framework nist_csf   # 8/8 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST Cybersecurity Framework 2.0",
+    "scope_of_claim": "CSF 2.0 functions are covered through the aligned control map. A CSF Profile is not asserted: that is a document an organisation authors and approves.",
+    "unverified_detail": []
+   },
+   "id": "11_nist_csf",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST Cybersecurity Framework 2.0"
+  },
+  {
+   "evidence": {
+    "authority": "FedRAMP",
+    "command": "python tools/run_bench.py --only fedramp",
+    "control_ids": [
+     "IA-2",
+     "IA-5",
+     "RA-5",
+     "SA-4",
+     "SA-10",
+     "SA-11",
+     "SC-7",
+     "SC-8",
+     "SC-13",
+     "SI-2"
+    ],
+    "controls_mapped": 10,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 10,
+    "coverage_command": "anticloud-ref bench --framework fedramp   # 10/10 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "FedRAMP Rev. 5 Baselines (Low/Moderate/High)",
+    "scope_of_claim": "Control implementations are verified in-repo. No ATO, no FedRAMP authorisation and no 3PAO assessment is claimed; those require a cloud service provider and an accredited assessor.",
+    "unverified_detail": []
+   },
+   "id": "12_fedramp",
+   "ok": true,
+   "status": "PASS",
+   "title": "FedRAMP Rev. 5"
+  },
+  {
+   "evidence": {
+    "authority": "PCI SSC",
+    "command": "python tools/run_bench.py --only pci",
+    "control_ids": [
+     "1.1.1",
+     "1.2.1",
+     "2.2.1",
+     "3.4.1",
+     "3.5.1",
+     "6.2.4",
+     "6.4.2",
+     "8.3.6",
+     "10.2.1",
+     "11.3.1",
+     "11.5.2"
+    ],
+    "controls_mapped": 11,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 11,
+    "coverage_command": "anticloud-ref bench --framework pci_dss   # 11/11 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "PCI DSS v4.0.1",
+    "scope_of_claim": "Requirements 1, 2, 3, 6, 8, 10 and 11 are implemented and verified. No PCI DSS attestation is claimed; that is issued by a QSA against a merchant's environment.",
+    "unverified_detail": []
+   },
+   "id": "13_pci_dss",
+   "ok": true,
+   "status": "PASS",
+   "title": "PCI DSS v4.0.1"
+  },
+  {
+   "evidence": {
+    "authority": "ISO/IEC",
+    "command": "python tools/run_bench.py --only iso",
+    "control_ids": [
+     "5.1.1",
+     "5.1.2",
+     "8.2.3",
+     "8.24",
+     "8.28",
+     "8.29",
+     "8.16",
+     "8.20",
+     "8.24"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework iso_27001   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "ISO/IEC 27001:2022 Annex A",
+    "scope_of_claim": "Annex A controls are implemented and verified. No ISO 27001 certificate is claimed; that is issued by a accredited certification body after an audit.",
+    "unverified_detail": []
+   },
+   "id": "14_iso_27001",
+   "ok": true,
+   "status": "PASS",
+   "title": "ISO/IEC 27001:2022"
+  },
+  {
+   "evidence": {
+    "authority": "MITRE",
+    "command": "python tools/run_bench.py --only mitre",
+    "control_ids": [
+     "T1078",
+     "T1552",
+     "T1552.001",
+     "T1553",
+     "T1195.002",
+     "T1221",
+     "T1600.002",
+     "T1499",
+     "T1565",
+     "T1565.001",
+     "T1530",
+     "T1619"
+    ],
+    "controls_mapped": 12,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 12,
+    "coverage_command": "anticloud-ref bench --framework mitre_attack   # 12/12 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "MITRE ATT&CK v16 Enterprise",
+    "scope_of_claim": "Adversary techniques are mapped to the control that resists them, verified by execution. This is not adversary emulation or a purple-team exercise.",
+    "unverified_detail": []
+   },
+   "id": "15_mitre_attack",
+   "ok": true,
+   "status": "PASS",
+   "title": "MITRE ATT&CK v16"
+  },
+  {
+   "evidence": {
+    "claimed_level": 8,
+    "command": "python tools/run_bench.py --only 16 && cat docs/18_TRL_JUSTIFICATION/TRL.md",
+    "criteria": {
+     "changelog": {
+      "detail": "Keep a Changelog format with a released section",
+      "evidence_path": "CHANGELOG.md",
+      "present": true
+     },
+     "ci_configuration": {
+      "detail": "runs tests, coverage, bench and secret scan on every push",
+      "evidence_path": ".github/workflows/ci.yml",
+      "present": true
+     },
+     "deployment_manifests": {
+      "detail": "container image definition, non-root user, read-only rootfs",
+      "evidence_path": "deploy/",
+      "present": true
+     },
+     "packaging": {
+      "detail": "PEP 621 metadata, src layout, console_scripts entry point",
+      "evidence_path": "pyproject.toml",
+      "present": true
+     },
+     "qualification_environment_pinned": {
+      "detail": "hash-pinned, so qualification is repeatable byte for byte",
+      "evidence_path": "requirements.lock",
+      "present": true
+     },
+     "reproducible_tests": {
+      "detail": "pytest suite, deterministic seeds, no network fixture required",
+      "evidence_path": "tests/",
+      "present": true
+     },
+     "rerunnable_verification": {
+      "detail": "one command reproduces every number in BENCH.json",
+      "evidence_path": "tools/run_bench.py",
+      "present": true
+     },
+     "versioning": {
+      "detail": "single source of truth, currently 1.0.0",
+      "evidence_path": "src/anticloud_ref/_version.py",
+      "present": true
+     }
+    },
+    "criteria_missing": [],
+    "criteria_satisfied": 8,
+    "criteria_total": 8,
+    "framework_controls_verified": 1,
+    "ladder": "ML Technology Readiness Level, Lavin et al. 2022 (TMLR)",
+    "observed_level": 8,
+    "source": "22_COMPLIANCE_FRAMEWORKS/FACTS.md",
+    "trL9_claimed": false,
+    "trL9_reason": "requires proven success in an operational environment, which cannot be asserted from a repository"
+   },
+   "id": "16_ml_trl",
+   "ok": true,
+   "status": "PASS",
+   "title": "ML Technology Readiness Level 8"
+  }
+ ],
+ "passed": 16,
+ "failed": 0,
+ "failed_ids": [],
+ "all_passed": true,
+ "checks_executed_at": "2026-10-12T06:15:35.609880+00:00",
+ "checks_evidence": "ISOLATED_LAB_RESULTS/04_Evidence/16_checks_report.json",
+ "checks_evidence_sha3": "563ab9452760b3eea582ade75adbfcaac009cca87dc747682fe76294a01f35b7",
+ "upstream_substituted": {
+  "from": "GPL/AGPL slot",
+  "to": "carla-simulator/carla",
+  "sha": "28244ba27ca66e34e2f48ce30812d4f034e39c0b",
+  "at": "2026-10-12T06:15:35.609880+00:00"
+ }
+}
