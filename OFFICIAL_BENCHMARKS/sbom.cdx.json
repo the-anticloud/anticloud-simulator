@@ -1,0 +1,193 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:177ad152-207b-5385-b6ad-c9249484cd0a",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-06T08:11:21Z",
+    "component": {
+      "type": "application",
+      "name": "SIMULATOR",
+      "version": "4c342fd39c5e",
+      "bom-ref": "pkg:generic/anticloud/SIMULATOR@4c342fd39c5e",
+      "purl": "pkg:generic/anticloud/SIMULATOR@4c342fd39c5e",
+      "licenses": [
+        {
+          "license": {
+            "id": "UNKNOWN"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "4c342fd39c5eca6ce6538a144f51d5929812e417"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/lgsvl/simulator"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "com.unity.render-pipelines.core",
+      "version": "10.7.0",
+      "purl": "pkg:npm/com.unity.render-pipelines.core@10.7.0",
+      "bom-ref": "npm/com.unity.render-pipelines.core@10.7.0"
+    },
+    {
+      "type": "library",
+      "name": "com.unity.shadergraph",
+      "version": "10.7.0",
+      "purl": "pkg:npm/com.unity.shadergraph@10.7.0",
+      "bom-ref": "npm/com.unity.shadergraph@10.7.0"
+    },
+    {
+      "type": "library",
+      "name": "com.unity.visualeffectgraph",
+      "version": "10.7.0",
+      "purl": "pkg:npm/com.unity.visualeffectgraph@10.7.0",
+      "bom-ref": "npm/com.unity.visualeffectgraph@10.7.0"
+    },
+    {
+      "type": "library",
+      "name": "com.unity.render-pipelines.high-definition-config",
+      "version": "10.7.0",
+      "purl": "pkg:npm/com.unity.render-pipelines.high-definition-config@10.7.0",
+      "bom-ref": "npm/com.unity.render-pipelines.high-definition-config@10.7.0"
+    },
+    {
+      "type": "library",
+      "name": "OpenCV",
+      "version": "unspecified",
+      "purl": "pkg:generic/OpenCV",
+      "bom-ref": "native/OpenCV@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "github.com/davecgh/go-spew",
+      "version": "v1.1.1",
+      "purl": "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
+      "bom-ref": "go/github.com/davecgh/go-spew@v1.1.1"
+    },
+    {
+      "type": "library",
+      "name": "github.com/docker/docker",
+      "version": "v20.10.2+incompatible",
+      "purl": "pkg:golang/github.com/docker/docker@v20.10.2+incompatible",
+      "bom-ref": "go/github.com/docker/docker@v20.10.2+incompatible"
+    },
+    {
+      "type": "library",
+      "name": "github.com/docker/go-connections",
+      "version": "v0.4.0",
+      "purl": "pkg:golang/github.com/docker/go-connections@v0.4.0",
+      "bom-ref": "go/github.com/docker/go-connections@v0.4.0"
+    },
+    {
+      "type": "library",
+      "name": "github.com/docker/go-units",
+      "version": "v0.4.0",
+      "purl": "pkg:golang/github.com/docker/go-units@v0.4.0",
+      "bom-ref": "go/github.com/docker/go-units@v0.4.0"
+    },
+    {
+      "type": "library",
+      "name": "github.com/gogo/protobuf",
+      "version": "v1.3.1",
+      "purl": "pkg:golang/github.com/gogo/protobuf@v1.3.1",
+      "bom-ref": "go/github.com/gogo/protobuf@v1.3.1"
+    },
+    {
+      "type": "library",
+      "name": "github.com/google/go-cmp",
+      "version": "v0.5.4",
+      "purl": "pkg:golang/github.com/google/go-cmp@v0.5.4",
+      "bom-ref": "go/github.com/google/go-cmp@v0.5.4"
+    },
+    {
+      "type": "library",
+      "name": "github.com/kr/text",
+      "version": "v0.2.0",
+      "purl": "pkg:golang/github.com/kr/text@v0.2.0",
+      "bom-ref": "go/github.com/kr/text@v0.2.0"
+    },
+    {
+      "type": "library",
+      "name": "github.com/moby/term",
+      "version": "v0.0.0-20201216013528-df9cb8a40635",
+      "purl": "pkg:golang/github.com/moby/term@v0.0.0-20201216013528-df9cb8a40635",
+      "bom-ref": "go/github.com/moby/term@v0.0.0-20201216013528-df9cb8a40635"
+    },
+    {
+      "type": "library",
+      "name": "github.com/morikuni/aec",
+      "version": "v1.0.0",
+      "purl": "pkg:golang/github.com/morikuni/aec@v1.0.0",
+      "bom-ref": "go/github.com/morikuni/aec@v1.0.0"
+    },
+    {
+      "type": "library",
+      "name": "github.com/opencontainers/go-digest",
+      "version": "v1.0.0",
+      "purl": "pkg:golang/github.com/opencontainers/go-digest@v1.0.0",
+      "bom-ref": "go/github.com/opencontainers/go-digest@v1.0.0"
+    },
+    {
+      "type": "library",
+      "name": "github.com/opencontainers/image-spec",
+      "version": "v1.0.1",
+      "purl": "pkg:golang/github.com/opencontainers/image-spec@v1.0.1",
+      "bom-ref": "go/github.com/opencontainers/image-spec@v1.0.1"
+    },
+    {
+      "type": "library",
+      "name": "github.com/stretchr/testify",
+      "version": "v1.6.1",
+      "purl": "pkg:golang/github.com/stretchr/testify@v1.6.1",
+      "bom-ref": "go/github.com/stretchr/testify@v1.6.1"
+    },
+    {
+      "type": "library",
+      "name": "golang.org/x/sys",
+      "version": "v0.0.0-20210105210732-16f7687f5001",
+      "purl": "pkg:golang/golang.org/x/sys@v0.0.0-20210105210732-16f7687f5001",
+      "bom-ref": "go/golang.org/x/sys@v0.0.0-20210105210732-16f7687f5001"
+    },
+    {
+      "type": "library",
+      "name": "golang.org/x/xerrors",
+      "version": "v0.0.0-20200804184101-5ec99f83aff1",
+      "purl": "pkg:golang/golang.org/x/xerrors@v0.0.0-20200804184101-5ec99f83aff1",
+      "bom-ref": "go/golang.org/x/xerrors@v0.0.0-20200804184101-5ec99f83aff1"
+    },
+    {
+      "type": "library",
+      "name": "gopkg.in/check.v1",
+      "version": "v1.0.0-20201130134442-10cb98267c6c",
+      "purl": "pkg:golang/gopkg.in/check.v1@v1.0.0-20201130134442-10cb98267c6c",
+      "bom-ref": "go/gopkg.in/check.v1@v1.0.0-20201130134442-10cb98267c6c"
+    },
+    {
+      "type": "library",
+      "name": "gopkg.in/yaml.v3",
+      "version": "v3.0.0-20210105161348-2e78108cf5f8",
+      "purl": "pkg:golang/gopkg.in/yaml.v3@v3.0.0-20210105161348-2e78108cf5f8",
+      "bom-ref": "go/gopkg.in/yaml.v3@v3.0.0-20210105161348-2e78108cf5f8"
+    },
+    {
+      "type": "library",
+      "name": "gotest.tools/v3",
+      "version": "v3.0.3",
+      "purl": "pkg:golang/gotest.tools/v3@v3.0.3",
+      "bom-ref": "go/gotest.tools/v3@v3.0.3"
+    }
+  ]
+}

@@ -1,0 +1,1145 @@
+{
+  "schema": "anticloud.tier-bench/1",
+  "project": "SIMULATOR",
+  "source": {
+    "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\AUTOMOTIVE\\SIMULATOR\\UPSTREAM_CLONE",
+    "git": {
+      "head": "4c342fd39c5eca6ce6538a144f51d5929812e417",
+      "url": "https://github.com/lgsvl/simulator",
+      "branch": "master",
+      "committed_at": "2022-01-19T13:47:48-08:00"
+    }
+  },
+  "metrics": {
+    "files_total": 7292,
+    "source_files_scanned": 1986,
+    "lines_of_code": 463561,
+    "languages": {
+      ".meta": 3910,
+      ".cs": 1963,
+      ".png": 290,
+      ".hlsl": 256,
+      ".shader": 118,
+      ".prefab": 115,
+      ".compute": 103,
+      ".mat": 75,
+      ".asset": 62,
+      ".fbx": 55,
+      ".template": 49,
+      ".shadergraph": 30,
+      "(none)": 27,
+      ".txt": 26,
+      ".dll": 24
+    }
+  },
+  "licence": {
+    "spdx": "UNKNOWN",
+    "class": "C",
+    "source_file": "LICENSE",
+    "redistribution_allowed": false
+  },
+  "dependencies": {
+    "count": 22,
+    "unique": 22,
+    "by_ecosystem": {
+      "go": 17,
+      "native": 1,
+      "npm": 4
+    },
+    "list": [
+      {
+        "ecosystem": "npm",
+        "name": "com.unity.render-pipelines.core",
+        "version": "10.7.0",
+        "source_file": "Packages/com.unity.render-pipelines.high-definition/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "com.unity.shadergraph",
+        "version": "10.7.0",
+        "source_file": "Packages/com.unity.render-pipelines.high-definition/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "com.unity.visualeffectgraph",
+        "version": "10.7.0",
+        "source_file": "Packages/com.unity.render-pipelines.high-definition/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "npm",
+        "name": "com.unity.render-pipelines.high-definition-config",
+        "version": "10.7.0",
+        "source_file": "Packages/com.unity.render-pipelines.high-definition/package.json",
+        "raw": ""
+      },
+      {
+        "ecosystem": "native",
+        "name": "OpenCV",
+        "version": "",
+        "source_file": "Assets/Plugins/LineSegmentDetector/source/CMakeLists.txt",
+        "raw": "find_package( OpenCV"
+      },
+      {
+        "ecosystem": "go",
+        "name": "github.com/davecgh/go-spew",
+        "version": "v1.1.1",
+        "source_file": "Assets/Plugins/DockerDotNet/tools/specgen/go.mod",
+        "raw": ""
+      },
+      {
+        "ecosystem": "go",
+        "name": "github.com/docker/docker",
+        "version": "v20.10.2+incompatible",
+        "source_file": "Assets/Plugins/DockerDotNet/tools/specgen/go.mod",
+        "raw": ""
+      },
+      {
+        "ecosystem": "go",
+        "name": "github.com/docker/go-connections",
+        "version": "v0.4.0",
+        "source_file": "Assets/Plugins/DockerDotNet/tools/specgen/go.mod",
+        "raw": ""
+      },
+      {
+        "ecosystem": "go",
+        "name": "github.com/docker/go-units",
+        "version": "v0.4.0",
+        "source_file": "Assets/Plugins/DockerDotNet/tools/specgen/go.mod",
+        "raw": ""
+      },
+      {
+        "ecosystem": "go",
+        "name": "github.com/gogo/protobuf",
+        "version": "v1.3.1",
+        "source_file": "Assets/Plugins/DockerDotNet/tools/specgen/go.mod",
+        "raw": ""
+      },
+      {
+        "ecosystem": "go",
+        "name": "github.com/google/go-cmp",
+        "version": "v0.5.4",
+        "source_file": "Assets/Plugins/DockerDotNet/tools/specgen/go.mod",
+        "raw": ""
+      },
+      {
+        "ecosystem": "go",
+        "name": "github.com/kr/text",
+        "version": "v0.2.0",
+        "source_file": "Assets/Plugins/DockerDotNet/tools/specgen/go.mod",
+        "raw": ""
+      },
+      {
+        "ecosystem": "go",
+        "name": "github.com/moby/term",
+        "version": "v0.0.0-20201216013528-df9cb8a40635",
+        "source_file": "Assets/Plugins/DockerDotNet/tools/specgen/go.mod",
+        "raw": ""
+      },
+      {
+        "ecosystem": "go",
+        "name": "github.com/morikuni/aec",
+        "version": "v1.0.0",
+        "source_file": "Assets/Plugins/DockerDotNet/tools/specgen/go.mod",
+        "raw": ""
+      },
+      {
+        "ecosystem": "go",
+        "name": "github.com/opencontainers/go-digest",
+        "version": "v1.0.0",
+        "source_file": "Assets/Plugins/DockerDotNet/tools/specgen/go.mod",
+        "raw": ""
+      },
+      {
+        "ecosystem": "go",
+        "name": "github.com/opencontainers/image-spec",
+        "version": "v1.0.1",
+        "source_file": "Assets/Plugins/DockerDotNet/tools/specgen/go.mod",
+        "raw": ""
+      },
+      {
+        "ecosystem": "go",
+        "name": "github.com/stretchr/testify",
+        "version": "v1.6.1",
+        "source_file": "Assets/Plugins/DockerDotNet/tools/specgen/go.mod",
+        "raw": ""
+      },
+      {
+        "ecosystem": "go",
+        "name": "golang.org/x/sys",
+        "version": "v0.0.0-20210105210732-16f7687f5001",
+        "source_file": "Assets/Plugins/DockerDotNet/tools/specgen/go.mod",
+        "raw": ""
+      },
+      {
+        "ecosystem": "go",
+        "name": "golang.org/x/xerrors",
+        "version": "v0.0.0-20200804184101-5ec99f83aff1",
+        "source_file": "Assets/Plugins/DockerDotNet/tools/specgen/go.mod",
+        "raw": ""
+      },
+      {
+        "ecosystem": "go",
+        "name": "gopkg.in/check.v1",
+        "version": "v1.0.0-20201130134442-10cb98267c6c",
+        "source_file": "Assets/Plugins/DockerDotNet/tools/specgen/go.mod",
+        "raw": ""
+      },
+      {
+        "ecosystem": "go",
+        "name": "gopkg.in/yaml.v3",
+        "version": "v3.0.0-20210105161348-2e78108cf5f8",
+        "source_file": "Assets/Plugins/DockerDotNet/tools/specgen/go.mod",
+        "raw": ""
+      },
+      {
+        "ecosystem": "go",
+        "name": "gotest.tools/v3",
+        "version": "v3.0.3",
+        "source_file": "Assets/Plugins/DockerDotNet/tools/specgen/go.mod",
+        "raw": ""
+      }
+    ]
+  },
+  "owasp_top10": {
+    "total_findings": 291,
+    "files_with_findings": 275,
+    "severity": {
+      "high": 1,
+      "medium": 6,
+      "low": 284
+    },
+    "categories": {
+      "A01-BrokenAccessControl": {
+        "count": 0,
+        "findings": []
+      },
+      "A02-CryptographicFailures": {
+        "count": 6,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "Assets/Scripts/Utilities/Utility.cs",
+            "line": 537,
+            "cwe": "CWE-327",
+            "snippet": "MD5 md5Hasher = MD5.Create();"
+          },
+          {
+            "severity": "medium",
+            "file": "Assets/Plugins/websocket-sharp/Net/AuthenticationChallenge.cs",
+            "line": 54,
+            "cwe": "CWE-327",
+            "snippet": "Parameters[\"algorithm\"] = \"MD5\";"
+          },
+          {
+            "severity": "medium",
+            "file": "Assets/Plugins/websocket-sharp/Net/AuthenticationResponse.cs",
+            "line": 167,
+            "cwe": "CWE-327",
+            "snippet": "var md5 = MD5.Create ();"
+          },
+          {
+            "severity": "medium",
+            "file": "Assets/Plugins/websocket-sharp/Net/HttpRequestHeader.cs",
+            "line": 117,
+            "cwe": "CWE-327",
+            "snippet": "/// Indicates the Content-MD5 header."
+          },
+          {
+            "severity": "medium",
+            "file": "Assets/Plugins/websocket-sharp/Net/HttpResponseHeader.cs",
+            "line": 117,
+            "cwe": "CWE-327",
+            "snippet": "/// Indicates the Content-MD5 header."
+          },
+          {
+            "severity": "medium",
+            "file": "Assets/Plugins/websocket-sharp/Net/WebHeaderCollection.cs",
+            "line": 195,
+            "cwe": "CWE-327",
+            "snippet": "\"Content-MD5\","
+          }
+        ]
+      },
+      "A03-Injection": {
+        "count": 0,
+        "findings": []
+      },
+      "A04-InsecureDesign": {
+        "count": 223,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/Utilities/ProbeSettingsUtilities.cs",
+            "line": 133,
+            "cwe": "CWE-",
+            "snippet": "// TODO: The capture camera should look at a better direction to only capture texels that"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/Sky/PhysicallyBasedSky/PhysicallyBasedSkyRenderer.cs",
+            "line": 204,
+            "cwe": "CWE-",
+            "snippet": "// TODO: ground irradiance table? Volume SH? Something else?"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/ShaderLibrary/ShaderVariablesGlobal.cs",
+            "line": 38,
+            "cwe": "CWE-",
+            "snippet": "// TODO: put commonly used vars together (below), and then sort them by the frequency of use (descending)."
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/Scripting/GameObjectExtension.cs",
+            "line": 42,
+            "cwe": "CWE-",
+            "snippet": "// TODO: camera functions"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/GlobalLightingQualitySettings.cs",
+            "line": 243,
+            "cwe": "CWE-",
+            "snippet": "// TODO: Volumetric fog quality"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/HDRenderPipeline.cs",
+            "line": 196,
+            "cwe": "CWE-",
+            "snippet": "// TODO: remove me, I am just a temporary debug texture. :-)"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/HDRenderPipeline.Debug.cs",
+            "line": 622,
+            "cwe": "CWE-",
+            "snippet": "// TODO: See how we can make this nicer than a specific functions just for one case."
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/HDRenderPipeline.LightLoop.cs",
+            "line": 13,
+            "cwe": "CWE-",
+            "snippet": "// TODO RENDERGRAPH: Those two buffers aren't really lighting buffers but only used for SSS"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/HDRenderPipeline.Prepass.cs",
+            "line": 195,
+            "cwe": "CWE-",
+            "snippet": "// TODO: See how to clean this. Some buffers are created outside, some inside functions..."
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/HDRenderPipeline.RenderGraph.cs",
+            "line": 170,
+            "cwe": "CWE-",
+            "snippet": "// TODO RENDERGRAPH : Move this to the end after we do move semantic and graph culling to avoid doing the rest of the frame for nothing"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/HDRenderPipeline.SvlExtensions.cs",
+            "line": 172,
+            "cwe": "CWE-",
+            "snippet": "// TODO: override culling results for point cloud shadow casting"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/HDRenderPipelineAsset.cs",
+            "line": 344,
+            "cwe": "CWE-",
+            "snippet": "// call to GetAutodeskInteractiveShaderXXX are only from within editor"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/HDStringConstants.cs",
+            "line": 103,
+            "cwe": "CWE-",
+            "snippet": "// TODO: Would be nice to clean this up at some point"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/XR/XRSystem.cs",
+            "line": 26,
+            "cwe": "CWE-",
+            "snippet": "// XRTODO: expose and document public API for custom layout"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/Utility/PowerOfTwoTextureAtlas.cs",
+            "line": 28,
+            "cwe": "CWE-",
+            "snippet": "// branchless previous power of two: Hacker\u2019s Delight, Second Edition page 66"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/Utility/Texture2DAtlasDynamic.cs",
+            "line": 121,
+            "cwe": "CWE-",
+            "snippet": "// TODO: Rather than always going left, then right, we might want to always attempt to allocate in the smaller child, then larger."
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/Utility/Texture3DAtlasDynamic.cs",
+            "line": 121,
+            "cwe": "CWE-",
+            "snippet": "// TODO: Rather than always going left, then right, we might want to always attempt to allocate in the smaller child, then larger."
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/Settings/FrameSettings.cs",
+            "line": 761,
+            "cwe": "CWE-",
+            "snippet": "// TODO: The work will be implemented piecemeal to support all passes"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/RenderPass/MipGenerator.cs",
+            "line": 58,
+            "cwe": "CWE-",
+            "snippet": "// TODO: Mip-mapping depth is problematic for precision at lower mips, generate a packed atlas instead"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/RenderPass/CustomPass/CustomPass.cs",
+            "line": 141,
+            "cwe": "CWE-",
+            "snippet": "// TODO RENDERGRAPH cleanup the other ones when we only have the render graph path."
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/RenderPass/CustomPass/CustomPassUtils.cs",
+            "line": 558,
+            "cwe": "CWE-",
+            "snippet": "// TODO when rendergraph is available: a PostProcess pass which does the copy with a temp target"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/RenderPass/CustomPass/CustomPassVolume.cs",
+            "line": 283,
+            "cwe": "CWE-",
+            "snippet": "// TODO: cache the results per camera in the HDRenderPipeline so it's not executed twice per camera"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/Raytracing/HDRaytracingAmbientOcclusion.cs",
+            "line": 198,
+            "cwe": "CWE-",
+            "snippet": "// TODO: All the push-debug stuff should be centralized somewhere"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/Raytracing/HDRaytracingIndirectDiffuse.cs",
+            "line": 112,
+            "cwe": "CWE-",
+            "snippet": "// XRTODO: add ray binning support for single-pass"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/Raytracing/HDRaytracingManager.cs",
+            "line": 442,
+            "cwe": "CWE-",
+            "snippet": "//TODO: case AreaLightShape.Disc:"
+          }
+        ]
+      },
+      "A05-SecurityMisconfiguration": {
+        "count": 0,
+        "findings": []
+      },
+      "A06-VulnerableComponents": {
+        "count": 0,
+        "findings": []
+      },
+      "A07-AuthFailures": {
+        "count": 1,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "Assets/Plugins/DockerDotNet/src/Docker.DotNet.X509/RSAUtil.cs",
+            "line": 45,
+            "cwe": "CWE-798",
+            "snippet": "if (!TryReadUntil(rdr, \"-----BEGIN RSA PRIVATE KEY-----\"))"
+          }
+        ]
+      },
+      "A08-SoftwareDataIntegrity": {
+        "count": 61,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/ShaderLibrary/ShaderVariablesGlobal.cs",
+            "line": 66,
+            "cwe": "CWE-319",
+            "snippet": "// Values used to linearize the Z buffer (http://www.humus.name/temp/Linearize%20depth.txt)"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/Camera/HDCamera.cs",
+            "line": 1316,
+            "cwe": "CWE-319",
+            "snippet": "// http://www.humus.name/temp/Linearize%20depth.txt"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Editor/AssetProcessors/NormalMapFilteringTexturePostprocessor.cs",
+            "line": 126,
+            "cwe": "CWE-319",
+            "snippet": "// Ref: Frequency Domain Normal Map Filtering - http://www.cs.columbia.edu/cg/normalmap/normalmap.pdf"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/co.parabox.stl/Runtime/Exporter.cs",
+            "line": 131,
+            "cwe": "CWE-319",
+            "snippet": "// http://paulbourke.net/dataformats/stl/"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/co.parabox.stl/Runtime/Importer.cs",
+            "line": 225,
+            "cwe": "CWE-319",
+            "snippet": "// http://stackoverflow.com/questions/968935/compare-binary-files-in-c-sharp"
+          },
+          {
+            "severity": "low",
+            "file": "Jenkins/build-simulator.sh",
+            "line": 255,
+            "cwe": "CWE-319",
+            "snippet": "-t http://timestamp.digicert.com       \\"
+          },
+          {
+            "severity": "low",
+            "file": "Assets/Scripts/sentry-unity-lite-1.0.3/Runtime/Sentry.cs",
+            "line": 41,
+            "cwe": "CWE-319",
+            "snippet": "/// <seealso href=\"http://pci-ids.ucw.cz/read/PC/\"/>"
+          },
+          {
+            "severity": "low",
+            "file": "Assets/Scripts/Network/Core/Messaging/Data/ByteCompression.cs",
+            "line": 584,
+            "cwe": "CWE-319",
+            "snippet": "//http://gafferongames.com/networked-physics/snapshot-compression/"
+          },
+          {
+            "severity": "low",
+            "file": "Assets/Scripts/Map/MapLaneSection.cs",
+            "line": 188,
+            "cwe": "CWE-319",
+            "snippet": "// See http://mathworld.wolfram.com/Point-LineDistance3-Dimensional.html"
+          },
+          {
+            "severity": "low",
+            "file": "Assets/Scripts/Map/SunMoonPosition.cs",
+            "line": 14,
+            "cwe": "CWE-319",
+            "snippet": "// http://www.stjarnhimlen.se/comp/ppcomp.html"
+          },
+          {
+            "severity": "low",
+            "file": "Assets/Scripts/Editor/ApolloMapImporter.cs",
+            "line": 1162,
+            "cwe": "CWE-319",
+            "snippet": "// http://geomalgorithms.com/a05-_intersect-1.html"
+          },
+          {
+            "severity": "low",
+            "file": "Assets/Scripts/Editor/Lanelet2MapImporter.ComputeCenterLine.cs",
+            "line": 8,
+            "cwe": "CWE-319",
+            "snippet": "*     http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "Assets/Scripts/Editor/OdrSpiral.cs",
+            "line": 18,
+            "cwe": "CWE-319",
+            "snippet": "http://www.apache.org/licenses/LICENSE-2.0"
+          },
+          {
+            "severity": "low",
+            "file": "Assets/Scripts/Editor/Map/Meshes/clipper.cs",
+            "line": 6,
+            "cwe": "CWE-319",
+            "snippet": "* Website   :  http://www.angusj.com                                           *"
+          },
+          {
+            "severity": "low",
+            "file": "Assets/Plugins/websocket-sharp/CloseStatusCode.cs",
+            "line": 39,
+            "cwe": "CWE-319",
+            "snippet": "///   <see href=\"http://tools.ietf.org/html/rfc6455#section-7.4\">"
+          },
+          {
+            "severity": "low",
+            "file": "Assets/Plugins/websocket-sharp/Ext.cs",
+            "line": 5,
+            "cwe": "CWE-319",
+            "snippet": "* Some parts of this code are derived from Mono (http://www.mono-project.com):"
+          },
+          {
+            "severity": "low",
+            "file": "Assets/Plugins/websocket-sharp/Fin.cs",
+            "line": 38,
+            "cwe": "CWE-319",
+            "snippet": "/// <see href=\"http://tools.ietf.org/html/rfc6455#section-5.2\">Section 5.2</see> of RFC 6455."
+          },
+          {
+            "severity": "low",
+            "file": "Assets/Plugins/websocket-sharp/Mask.cs",
+            "line": 38,
+            "cwe": "CWE-319",
+            "snippet": "/// <see href=\"http://tools.ietf.org/html/rfc6455#section-5.2\">Section 5.2</see> of RFC 6455."
+          },
+          {
+            "severity": "low",
+            "file": "Assets/Plugins/websocket-sharp/Opcode.cs",
+            "line": 38,
+            "cwe": "CWE-319",
+            "snippet": "/// <see href=\"http://tools.ietf.org/html/rfc6455#section-5.2\">"
+          },
+          {
+            "severity": "low",
+            "file": "Assets/Plugins/websocket-sharp/Rsv.cs",
+            "line": 38,
+            "cwe": "CWE-319",
+            "snippet": "/// <see href=\"http://tools.ietf.org/html/rfc6455#section-5.2\">Section 5.2</see> of RFC 6455."
+          },
+          {
+            "severity": "low",
+            "file": "Assets/Plugins/websocket-sharp/WebSocket.cs",
+            "line": 6,
+            "cwe": "CWE-319",
+            "snippet": "* (http://github.com/adamac/Java-WebSocket-client)."
+          },
+          {
+            "severity": "low",
+            "file": "Assets/Plugins/websocket-sharp/WebSocketState.cs",
+            "line": 38,
+            "cwe": "CWE-319",
+            "snippet": "/// <see href=\"http://www.w3.org/TR/websockets/#dom-websocket-readystate\">"
+          },
+          {
+            "severity": "low",
+            "file": "Assets/Plugins/websocket-sharp/Server/HttpServer.cs",
+            "line": 1513,
+            "cwe": "CWE-319",
+            "snippet": "///   <see href=\"http://tools.ietf.org/html/rfc6455#section-7.4\">"
+          },
+          {
+            "severity": "low",
+            "file": "Assets/Plugins/websocket-sharp/Server/WebSocketBehavior.cs",
+            "line": 346,
+            "cwe": "CWE-319",
+            "snippet": "///   <see href=\"http://tools.ietf.org/html/rfc2616#section-2.2\">"
+          },
+          {
+            "severity": "low",
+            "file": "Assets/Plugins/websocket-sharp/Server/WebSocketServer.cs",
+            "line": 1365,
+            "cwe": "CWE-319",
+            "snippet": "///   <see href=\"http://tools.ietf.org/html/rfc6455#section-7.4\">"
+          }
+        ]
+      },
+      "A09-LoggingMonitoringFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A10-SSRF": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "owasp_llm_top10": {
+    "total_findings": 34,
+    "files_with_findings": 34,
+    "severity": {
+      "high": 0,
+      "medium": 13,
+      "low": 21
+    },
+    "categories": {
+      "LLM01-PromptInjection": {
+        "count": 13,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Editor/VFXGraph/Outputs/VFXDistortionMeshOutput.cs",
+            "line": 12,
+            "cwe": "CWE-1336",
+            "snippet": "public override string codeGeneratorTemplate { get { return RenderPipeTemplate(\"VFXParticleDistortionMesh\"); } }"
+          },
+          {
+            "severity": "medium",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Editor/VFXGraph/Outputs/VFXDistortionPlanarPrimitiveOutput.cs",
+            "line": 18,
+            "cwe": "CWE-1336",
+            "snippet": "public override string codeGeneratorTemplate { get { return RenderPipeTemplate(\"VFXParticleDistortionPlanarPrimitive\"); } }"
+          },
+          {
+            "severity": "medium",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Editor/VFXGraph/Outputs/VFXDistortionQuadStripOutput.cs",
+            "line": 23,
+            "cwe": "CWE-1336",
+            "snippet": "public override string codeGeneratorTemplate { get { return RenderPipeTemplate(\"VFXParticleDistortionPlanarPrimitive\"); } }"
+          },
+          {
+            "severity": "medium",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Editor/VFXGraph/Outputs/VFXLitCubeOutput.cs",
+            "line": 12,
+            "cwe": "CWE-1336",
+            "snippet": "public override string codeGeneratorTemplate { get { return RenderPipeTemplate(\"VFXParticleLitCube\"); } }"
+          },
+          {
+            "severity": "medium",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Editor/VFXGraph/Outputs/VFXLitMeshOutput.cs",
+            "line": 12,
+            "cwe": "CWE-1336",
+            "snippet": "public override string codeGeneratorTemplate { get { return RenderPipeTemplate(\"VFXParticleLitMesh\"); } }"
+          },
+          {
+            "severity": "medium",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Editor/VFXGraph/Outputs/VFXLitPlanarPrimitiveOutput.cs",
+            "line": 12,
+            "cwe": "CWE-1336",
+            "snippet": "public override string codeGeneratorTemplate { get { return RenderPipeTemplate(\"VFXParticleLitPlanarPrimitive\"); } }"
+          },
+          {
+            "severity": "medium",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Editor/VFXGraph/Outputs/VFXLitQuadStripOutput.cs",
+            "line": 14,
+            "cwe": "CWE-1336",
+            "snippet": "public override string codeGeneratorTemplate { get { return RenderPipeTemplate(\"VFXParticleLitPlanarPrimitive\"); } }"
+          },
+          {
+            "severity": "medium",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Editor/VFXGraph/Outputs/VFXLitSphereOutput.cs",
+            "line": 12,
+            "cwe": "CWE-1336",
+            "snippet": "public override string codeGeneratorTemplate { get { return RenderPipeTemplate(\"VFXParticleSphere\"); } }"
+          },
+          {
+            "severity": "medium",
+            "file": "Assets/Scripts/Web/Loader.cs",
+            "line": 1133,
+            "cwe": "CWE-1336",
+            "snippet": "if (SimulationConfigUtils.IsInternalTemplate(template))"
+          },
+          {
+            "severity": "medium",
+            "file": "Assets/Scripts/Web/SimulationConfigUtils.cs",
+            "line": 300,
+            "cwe": "CWE-1336",
+            "snippet": "static public bool IsInternalTemplate(TemplateData template)"
+          },
+          {
+            "severity": "medium",
+            "file": "Assets/Scripts/Sensors/LidarTemplate.cs",
+            "line": 26,
+            "cwe": "CWE-1336",
+            "snippet": "new LidarTemplate()"
+          },
+          {
+            "severity": "medium",
+            "file": "Assets/Scripts/Managers/TestCaseProcessManager.cs",
+            "line": 206,
+            "cwe": "CWE-1336",
+            "snippet": "var authConfig = AuthConfigFromTemplate(template);"
+          },
+          {
+            "severity": "medium",
+            "file": "Assets/Scripts/Bridge/Cyber/Protobuf/perception/camera/common/proto/object_template_meta_schema.cs",
+            "line": 82,
+            "cwe": "CWE-1336",
+            "snippet": "public ObjectTemplate()"
+          }
+        ]
+      },
+      "LLM02-SensitiveInfoDisclosure": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM03-SupplyChain": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM04-DataPoisoning": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM05-ImproperOutputHandling": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM06-ExcessiveAgency": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM07-SystemPromptLeak": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM08-VectorEmbeddingWeaknesses": {
+        "count": 21,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/GlobalPostProcessingQualitySettings.cs",
+            "line": 108,
+            "cwe": "CWE-",
+            "snippet": "/* Chromatic Aberration */"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/HDRenderPipeline.cs",
+            "line": 186,
+            "cwe": "CWE-",
+            "snippet": "RTHandle m_OpaqueAtmosphericScatteringBuffer; // Necessary to perform dual-source (polychromatic alpha) blending which is not supported by Unity"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/HDRenderPipeline.RenderGraph.cs",
+            "line": 1210,
+            "cwe": "CWE-",
+            "snippet": "// Necessary to perform dual-source (polychromatic alpha) blending which is not supported by Unity."
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/HDStringConstants.cs",
+            "line": 763,
+            "cwe": "CWE-",
+            "snippet": "public static readonly int _ChromaSpectralLut              = Shader.PropertyToID(\"_ChromaSpectralLut\");"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/RenderPipelineResources.cs",
+            "line": 323,
+            "cwe": "CWE-",
+            "snippet": "[Reload(\"Runtime/Compositor/Shaders/ChromaKeying.shader\")]"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/Settings/FrameSettings.cs",
+            "line": 186,
+            "cwe": "CWE-",
+            "snippet": "/// <summary>When enabled, HDRP adds chromatic aberration to Cameras affected by a Volume containing the Chromatic Aberration override.</summary>"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/RenderPipeline/Settings/FrameSettings.Migration.cs",
+            "line": 392,
+            "cwe": "CWE-",
+            "snippet": "cameraFrameSettings.SetEnabled(FrameSettingsField.ChromaticAberration, true);"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/PostProcessing/PostProcessSystem.cs",
+            "line": 68,
+            "cwe": "CWE-",
+            "snippet": "// Chromatic aberration data"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/PostProcessing/Shaders/UberPostFeatures.cs",
+            "line": 9,
+            "cwe": "CWE-",
+            "snippet": "ChromaticAberration       = 1 << 0,"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/PostProcessing/Components/ChromaticAberration.cs",
+            "line": 7,
+            "cwe": "CWE-",
+            "snippet": "/// A volume component that holds settings for the Chromatic Aberration effect."
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/Lighting/VolumetricLighting/DensityVolume.cs",
+            "line": 13,
+            "cwe": "CWE-",
+            "snippet": "public float     meanFreePath; // Should be chromatic - this is an optimization!"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/Compositor/ChromaKeying.cs",
+            "line": 8,
+            "cwe": "CWE-",
+            "snippet": "// Custom post-processing pass that performs chroma keying"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/Compositor/CompositionFilter.cs",
+            "line": 10,
+            "cwe": "CWE-",
+            "snippet": "CHROMA_KEYING = 0,"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Runtime/Compositor/CompositionManager.cs",
+            "line": 467,
+            "cwe": "CWE-",
+            "snippet": "// Setup a global volume used for chroma keying, alpha injection etc"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Editor/RenderPipeline/HDRenderPipelineUI.cs",
+            "line": 36,
+            "cwe": "CWE-",
+            "snippet": "ChromaticAberrationQuality = 1 << 20,"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Editor/RenderPipeline/HDRenderPipelineUI.Skin.cs",
+            "line": 53,
+            "cwe": "CWE-",
+            "snippet": "public static readonly GUIContent chromaticAberrationQualitySettings = EditorGUIUtility.TrTextContent(\"Chromatic Aberration\");"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Editor/RenderPipeline/Settings/SerializedPostProcessingQualitySettings.cs",
+            "line": 27,
+            "cwe": "CWE-",
+            "snippet": "// Chromatic Aberration"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Editor/PostProcessing/ChromaticAberrationEditor.cs",
+            "line": 7,
+            "cwe": "CWE-",
+            "snippet": "[VolumeComponentEditor(typeof(ChromaticAberration))]"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Editor/Compositor/CompositionFilterUI.Drawer.cs",
+            "line": 11,
+            "cwe": "CWE-",
+            "snippet": "static public readonly GUIContent k_ChromaKeing = EditorGUIUtility.TrTextContent(\"Chroma Keying\", \"Performs chroma keying in the input frame before any other composition operations"
+          },
+          {
+            "severity": "low",
+            "file": "Packages/com.unity.render-pipelines.high-definition/Editor/Compositor/CompositionManagerEditor.cs",
+            "line": 366,
+            "cwe": "CWE-",
+            "snippet": "menu.AddItem(new GUIContent(\"Chroma Keying\"), false, AddFilterOfTypeCallback, 0);"
+          },
+          {
+            "severity": "low",
+            "file": "Assets/Plugins/VideoCapture/Source/include/nvEncodeAPI.h",
+            "line": 1244,
+            "cwe": "CWE-",
+            "snippet": "uint32_t    videoFullRangeFlag;                   /**< [in]: Specifies the output range of the luma and chroma samples(as defined in Annex E of the ITU-T Specification). */"
+          }
+        ]
+      },
+      "LLM09-Misinformation": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM10-UnboundedConsumption": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:177ad152-207b-5385-b6ad-c9249484cd0a",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-10-06T08:11:21Z",
+      "component": {
+        "type": "application",
+        "name": "SIMULATOR",
+        "version": "4c342fd39c5e",
+        "bom-ref": "pkg:generic/anticloud/SIMULATOR@4c342fd39c5e",
+        "purl": "pkg:generic/anticloud/SIMULATOR@4c342fd39c5e",
+        "licenses": [
+          {
+            "license": {
+              "id": "UNKNOWN"
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "anticloud:source-commit",
+          "value": "4c342fd39c5eca6ce6538a144f51d5929812e417"
+        },
+        {
+          "name": "anticloud:source-url",
+          "value": "https://github.com/lgsvl/simulator"
+        },
+        {
+          "name": "anticloud:tier",
+          "value": "tier-agent"
+        }
+      ]
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "com.unity.render-pipelines.core",
+        "version": "10.7.0",
+        "purl": "pkg:npm/com.unity.render-pipelines.core@10.7.0",
+        "bom-ref": "npm/com.unity.render-pipelines.core@10.7.0"
+      },
+      {
+        "type": "library",
+        "name": "com.unity.shadergraph",
+        "version": "10.7.0",
+        "purl": "pkg:npm/com.unity.shadergraph@10.7.0",
+        "bom-ref": "npm/com.unity.shadergraph@10.7.0"
+      },
+      {
+        "type": "library",
+        "name": "com.unity.visualeffectgraph",
+        "version": "10.7.0",
+        "purl": "pkg:npm/com.unity.visualeffectgraph@10.7.0",
+        "bom-ref": "npm/com.unity.visualeffectgraph@10.7.0"
+      },
+      {
+        "type": "library",
+        "name": "com.unity.render-pipelines.high-definition-config",
+        "version": "10.7.0",
+        "purl": "pkg:npm/com.unity.render-pipelines.high-definition-config@10.7.0",
+        "bom-ref": "npm/com.unity.render-pipelines.high-definition-config@10.7.0"
+      },
+      {
+        "type": "library",
+        "name": "OpenCV",
+        "version": "unspecified",
+        "purl": "pkg:generic/OpenCV",
+        "bom-ref": "native/OpenCV@unspecified"
+      },
+      {
+        "type": "library",
+        "name": "github.com/davecgh/go-spew",
+        "version": "v1.1.1",
+        "purl": "pkg:golang/github.com/davecgh/go-spew@v1.1.1",
+        "bom-ref": "go/github.com/davecgh/go-spew@v1.1.1"
+      },
+      {
+        "type": "library",
+        "name": "github.com/docker/docker",
+        "version": "v20.10.2+incompatible",
+        "purl": "pkg:golang/github.com/docker/docker@v20.10.2+incompatible",
+        "bom-ref": "go/github.com/docker/docker@v20.10.2+incompatible"
+      },
+      {
+        "type": "library",
+        "name": "github.com/docker/go-connections",
+        "version": "v0.4.0",
+        "purl": "pkg:golang/github.com/docker/go-connections@v0.4.0",
+        "bom-ref": "go/github.com/docker/go-connections@v0.4.0"
+      },
+      {
+        "type": "library",
+        "name": "github.com/docker/go-units",
+        "version": "v0.4.0",
+        "purl": "pkg:golang/github.com/docker/go-units@v0.4.0",
+        "bom-ref": "go/github.com/docker/go-units@v0.4.0"
+      },
+      {
+        "type": "library",
+        "name": "github.com/gogo/protobuf",
+        "version": "v1.3.1",
+        "purl": "pkg:golang/github.com/gogo/protobuf@v1.3.1",
+        "bom-ref": "go/github.com/gogo/protobuf@v1.3.1"
+      },
+      {
+        "type": "library",
+        "name": "github.com/google/go-cmp",
+        "version": "v0.5.4",
+        "purl": "pkg:golang/github.com/google/go-cmp@v0.5.4",
+        "bom-ref": "go/github.com/google/go-cmp@v0.5.4"
+      },
+      {
+        "type": "library",
+        "name": "github.com/kr/text",
+        "version": "v0.2.0",
+        "purl": "pkg:golang/github.com/kr/text@v0.2.0",
+        "bom-ref": "go/github.com/kr/text@v0.2.0"
+      },
+      {
+        "type": "library",
+        "name": "github.com/moby/term",
+        "version": "v0.0.0-20201216013528-df9cb8a40635",
+        "purl": "pkg:golang/github.com/moby/term@v0.0.0-20201216013528-df9cb8a40635",
+        "bom-ref": "go/github.com/moby/term@v0.0.0-20201216013528-df9cb8a40635"
+      },
+      {
+        "type": "library",
+        "name": "github.com/morikuni/aec",
+        "version": "v1.0.0",
+        "purl": "pkg:golang/github.com/morikuni/aec@v1.0.0",
+        "bom-ref": "go/github.com/morikuni/aec@v1.0.0"
+      },
+      {
+        "type": "library",
+        "name": "github.com/opencontainers/go-digest",
+        "version": "v1.0.0",
+        "purl": "pkg:golang/github.com/opencontainers/go-digest@v1.0.0",
+        "bom-ref": "go/github.com/opencontainers/go-digest@v1.0.0"
+      },
+      {
+        "type": "library",
+        "name": "github.com/opencontainers/image-spec",
+        "version": "v1.0.1",
+        "purl": "pkg:golang/github.com/opencontainers/image-spec@v1.0.1",
+        "bom-ref": "go/github.com/opencontainers/image-spec@v1.0.1"
+      },
+      {
+        "type": "library",
+        "name": "github.com/stretchr/testify",
+        "version": "v1.6.1",
+        "purl": "pkg:golang/github.com/stretchr/testify@v1.6.1",
+        "bom-ref": "go/github.com/stretchr/testify@v1.6.1"
+      },
+      {
+        "type": "library",
+        "name": "golang.org/x/sys",
+        "version": "v0.0.0-20210105210732-16f7687f5001",
+        "purl": "pkg:golang/golang.org/x/sys@v0.0.0-20210105210732-16f7687f5001",
+        "bom-ref": "go/golang.org/x/sys@v0.0.0-20210105210732-16f7687f5001"
+      },
+      {
+        "type": "library",
+        "name": "golang.org/x/xerrors",
+        "version": "v0.0.0-20200804184101-5ec99f83aff1",
+        "purl": "pkg:golang/golang.org/x/xerrors@v0.0.0-20200804184101-5ec99f83aff1",
+        "bom-ref": "go/golang.org/x/xerrors@v0.0.0-20200804184101-5ec99f83aff1"
+      },
+      {
+        "type": "library",
+        "name": "gopkg.in/check.v1",
+        "version": "v1.0.0-20201130134442-10cb98267c6c",
+        "purl": "pkg:golang/gopkg.in/check.v1@v1.0.0-20201130134442-10cb98267c6c",
+        "bom-ref": "go/gopkg.in/check.v1@v1.0.0-20201130134442-10cb98267c6c"
+      },
+      {
+        "type": "library",
+        "name": "gopkg.in/yaml.v3",
+        "version": "v3.0.0-20210105161348-2e78108cf5f8",
+        "purl": "pkg:golang/gopkg.in/yaml.v3@v3.0.0-20210105161348-2e78108cf5f8",
+        "bom-ref": "go/gopkg.in/yaml.v3@v3.0.0-20210105161348-2e78108cf5f8"
+      },
+      {
+        "type": "library",
+        "name": "gotest.tools/v3",
+        "version": "v3.0.3",
+        "purl": "pkg:golang/gotest.tools/v3@v3.0.3",
+        "bom-ref": "go/gotest.tools/v3@v3.0.3"
+      }
+    ]
+  },
+  "elapsed_seconds": 181.63
+}
